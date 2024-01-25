@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "Sofrim-Main-Files/placeholder",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
