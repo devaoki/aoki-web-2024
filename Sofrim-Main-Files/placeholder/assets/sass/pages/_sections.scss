@@ -324,7 +324,7 @@
         }
     }
     &.style{
-        background-color: #F8D458;
+        background-color: #fe9c00;
         display: block;
         padding: 30px 20px;
         .project-content{
@@ -705,7 +705,7 @@ div[class*="col"]:nth-of-type(2n + 2) .project-item {
 
     .choose-video-btn {
         a {
-            color: #F8D458;
+            color: #fe9c00;
             width: 60px;
             height: 60px;
             line-height: 60px;
@@ -721,7 +721,7 @@ div[class*="col"]:nth-of-type(2n + 2) .project-item {
                 left: 0;
                 width: 100%;
                 height: 100%;
-                border: 1px solid #F8D458;
+                border: 1px solid #fe9c00;
                 border-radius: 50%;
             }
 
@@ -1681,7 +1681,7 @@ div[class*="col"]:nth-of-type(4n + 4) .service-item {
     }
 
     div[class*="col"]:nth-of-type(2n + 2) .statistics-item {
-        background-color: #F8D458;
+        background-color: #fe9c00;
 
         .statistics-content {
             p {
@@ -1700,7 +1700,7 @@ div[class*="col"]:nth-of-type(4n + 4) .service-item {
         }
     }
     .icon-box-items {
-        background: #F8D458;
+        background: #fe9c00;
         padding: 25px 20px 20px 20px;
         filter: drop-shadow(0px 20px 20px rgba(50, 73, 179, 0.1));
         display: flex;
@@ -2592,7 +2592,7 @@ div[class*="col"]:nth-of-type(4n + 4) .process-item {
         border-radius: 999px;
         font-size: 16px;
         font-weight: 400;
-        background-color: #F8D458;
+        background-color: #fe9c00;
         color: $color__heading;
         margin: 5px;
         display: initial;
@@ -4049,7 +4049,7 @@ div[class*="col"]:nth-of-type(4n + 4) .process-item {
                 left: 5px;
                 width: 24px;
                 height: 24px;
-                background-color: #F8D458;
+                background-color: #fe9c00;
                 border-radius: 50%;
 
                 @media only screen and (max-width: 991px) {
@@ -4482,7 +4482,7 @@ div[class*="col"]:nth-of-type(4n + 4) .process-item {
                     }
                 }
                 .right-icon{
-                    background-color: #F8D458;
+                    background-color: #fe9c00;
                     &::after{
                         border-bottom: 2px solid $white;
                         border-right: 2px solid $white;
@@ -4982,7 +4982,7 @@ div[class*="col"]:nth-of-type(4n + 4) .process-item {
         color: $white;
         font-weight: 800;
         span{
-            color: #F8D458;
+            color: #fe9c00;
             display: initial;
         }
     }
@@ -5861,7 +5861,7 @@ div[class*="col"]:nth-of-type(4n + 4) .process-item {
         font-weight: 700;
         margin-bottom: 30px;
         span{
-            color: #F8D458;
+            color: #fe9c00;
         }
     }
     p{
@@ -6106,7 +6106,7 @@ div[class*="col"]:nth-of-type(3n + 3) .process-item.two {
         .section-title{
             font-weight: 800;
             span{
-                color: #F8D458;
+                color: #fe9c00;
             }
         }
     }

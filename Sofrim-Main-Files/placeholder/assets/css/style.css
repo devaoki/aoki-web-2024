@@ -800,23 +800,22 @@ blockquote .quote-icon {
 */
 .scrollToTop {
   position: fixed;
-  bottom: 0;
+  bottom: 30px;
   right: 30px;
   width: 45px;
   height: 45px;
   line-height: 45px;
   font-weight: 600;
-  background-color: #0881a3;
-  color: #fff;
+  background-color: transparent;
   font-size: 20px;
   text-align: center;
   border-radius: 5px;
   z-index: 99;
   cursor: pointer;
   -webkit-transition: all 1s;
-  transition: all 1s;
+  /* transition: all 1s;
   -webkit-transform: translateY(-5000%);
-          transform: translateY(-5000%);
+          transform: translateY(-5000%); */
 }
 
 .scrollToTop.active {
@@ -1630,7 +1629,7 @@ h4 a:hover {
 }
 
 .sub-title {
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
   color: #0881a3;
@@ -3168,15 +3167,15 @@ option {
   border-radius: 100%;
   height: 10px;
   width: 10px;
-  background-color: #F8D458;
+  background-color: #fe9c00;
   position: absolute;
   left: 0;
   right: 0;
   margin: auto;
   top: 0;
   bottom: 0;
-  -webkit-box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
-  box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
+  -webkit-box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
+  box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
   -webkit-animation: load 3s infinite linear;
   animation: load 3s infinite linear;
 }
@@ -3184,122 +3183,122 @@ option {
 @-webkit-keyframes load {
   0% {
     -webkit-transform: translate(0px, 0px), rotate(0deg);
-    -webkit-box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
-    box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
+    box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
   }
   25% {
-    -webkit-box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458;
-    box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00;
+    box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00;
   }
   50% {
-    -webkit-box-shadow: 0px -40px 0px 0px #F8D458, 0px 40px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458;
-    box-shadow: 0px -40px 0px 0px #F8D458, 0px 40px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px -40px 0px 0px #fe9c00, 0px 40px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00;
+    box-shadow: 0px -40px 0px 0px #fe9c00, 0px 40px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00;
   }
   70% {
-    -webkit-box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
   }
   75% {
-    -webkit-box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
     height: 10px;
     width: 10px;
   }
   80% {
     -webkit-transform: translate(0px, 0px) rotate(360deg);
-    -webkit-box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    background-color: #F8D458;
+    -webkit-box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    background-color: #fe9c00;
     height: 40px;
     width: 40px;
   }
   85% {
     -webkit-transform: translate(0px, 0px) rotate(360deg);
-    -webkit-box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    background-color: #F8D458;
+    -webkit-box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    background-color: #fe9c00;
     height: 40px;
     width: 40px;
   }
   90% {
     -webkit-transform: translate(0px, 0px) rotate(360deg);
-    -webkit-box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    background-color: #F8D458;
+    -webkit-box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    background-color: #fe9c00;
     height: 10px;
     width: 10px;
   }
   95% {
-    -webkit-box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
-    box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
+    box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
   }
   100% {
     -webkit-transform: rotate(360deg);
-    -webkit-box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
-    box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
+    box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
   }
 }
 @keyframes load {
   0% {
     -webkit-transform: translate(0px, 0px), rotate(0deg);
     transform: translate(0px, 0px), rotate(0deg);
-    -webkit-box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
-    box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
+    box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
   }
   25% {
-    -webkit-box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458;
-    box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00;
+    box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00;
   }
   50% {
-    -webkit-box-shadow: 0px -40px 0px 0px #F8D458, 0px 40px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458;
-    box-shadow: 0px -40px 0px 0px #F8D458, 0px 40px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px -40px 0px 0px #fe9c00, 0px 40px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00;
+    box-shadow: 0px -40px 0px 0px #fe9c00, 0px 40px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00;
   }
   70% {
-    -webkit-box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
   }
   75% {
-    -webkit-box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
     height: 10px;
     width: 10px;
   }
   80% {
     -webkit-transform: translate(0px, 0px) rotate(360deg);
     transform: translate(0px, 0px) rotate(360deg);
-    -webkit-box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    background-color: #F8D458;
+    -webkit-box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    background-color: #fe9c00;
     height: 40px;
     width: 40px;
   }
   85% {
     -webkit-transform: translate(0px, 0px) rotate(360deg);
     transform: translate(0px, 0px) rotate(360deg);
-    -webkit-box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    background-color: #F8D458;
+    -webkit-box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    background-color: #fe9c00;
     height: 40px;
     width: 40px;
   }
   90% {
     -webkit-transform: translate(0px, 0px) rotate(360deg);
     transform: translate(0px, 0px) rotate(360deg);
-    -webkit-box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    box-shadow: 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458, 0px 0px 0px 0px #F8D458;
-    background-color: #F8D458;
+    -webkit-box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    box-shadow: 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00, 0px 0px 0px 0px #fe9c00;
+    background-color: #fe9c00;
     height: 10px;
     width: 10px;
   }
   95% {
-    -webkit-box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
-    box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
+    box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
   }
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    -webkit-box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
-    box-shadow: 0px 40px 0px 0px #F8D458, 0px -40px 0px 0px #F8D458, 40px 0px 0px 0px #F8D458, -40px 0px 0px 0px #F8D458, 40px 40px 0px 0px #F8D458, -40px -40px 0px 0px #F8D458, 40px -40px 0px 0px #F8D458, -40px 40px 0px 0px #F8D458;
+    -webkit-box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
+    box-shadow: 0px 40px 0px 0px #fe9c00, 0px -40px 0px 0px #fe9c00, 40px 0px 0px 0px #fe9c00, -40px 0px 0px 0px #fe9c00, 40px 40px 0px 0px #fe9c00, -40px -40px 0px 0px #fe9c00, 40px -40px 0px 0px #fe9c00, -40px 40px 0px 0px #fe9c00;
   }
 }
 .custom-container {
@@ -3542,7 +3541,7 @@ option {
 }
 @media only screen and (max-width: 991px) {
   .header-bottom-area {
-    padding: 20px 0;
+    padding: 5px 0;
   }
 }
 .header-bottom-area .navbar-expand-xl {
@@ -4071,6 +4070,7 @@ option {
 
 .navbar-toggler {
   padding: 0;
+  margin-right: 15px;
 }
 
 .navbar-toggler:focus {
@@ -4085,7 +4085,7 @@ option {
   border-radius: 50%;
   text-align: center;
   background: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #0881a3;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -4183,7 +4183,7 @@ option {
   position: relative;
   width: 24px;
   height: 1px;
-  background-color: #fff;
+  background-color: #0881a3;
   line-height: inherit;
   margin-top: -12px;
   top: -12px;
@@ -4197,7 +4197,7 @@ option {
   right: 0;
   width: 15px;
   height: 1px;
-  background-color: #fff;
+  background-color: #0881a3;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -4208,7 +4208,7 @@ option {
   right: 0;
   width: 10px;
   height: 1px;
-  background-color: #fff;
+  background-color: #0881a3;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -4759,7 +4759,7 @@ option {
 --------------------------------------------------------------*/
 .banner-section {
   position: relative;
-  padding-top: 100px;
+  padding-top: 125px;
   padding-bottom: 148px;
   padding-left: 50px;
   background: url(../images/bg-banner.svg);
@@ -5199,8 +5199,7 @@ option {
   }
 }
 .banner-section .banner-group-shape {
-  height: 800px;
-  width: 1000px;
+  height: 100%;
   position: absolute;
   background-size: cover;
   background-position: center;
@@ -5549,22 +5548,26 @@ option {
   }
 }
 .banner-section .banner-content .sub-title {
-  color: #F8D458;
+  color: #fe9c00;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-size: 20px;
 }
+
 @media only screen and (max-width: 991px) {
   .banner-section .banner-content .sub-title {
     font-size: 18px;
     line-height: 1.4;
     margin-bottom: 5px;
   }
+  .banner-p-bs{
+    display: none;
+  }
 }
 .banner-section .banner-content p {
   color: #fff;
   width: 70%;
-  line-height: 1.8em;
+  line-height: 2.2rem;
 }
 @media only screen and (max-width: 991px) {
   .banner-section .banner-content p {
@@ -7798,7 +7801,7 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
   margin-bottom: 40px;
 }
 .client-item.five .client-header .ratings i {
-  color: #F8D458;
+  color: #fe9c00;
 }
 .client-item.five .client-content p {
   font-size: 18px;
@@ -7917,7 +7920,8 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
   z-index: -1;
 }
 .client-right-thumb img {
-  width: 100%;
+  width: 80%;
+  height: auto;
 }
 .client-right-thumb .client-thumb-overlay {
   position: absolute;
@@ -8095,6 +8099,8 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
   width: auto;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  max-width: 250px;
+  height: auto;
 }
 .brand-item:hover {
   -webkit-box-shadow: 0 0 30px rgba(50, 73, 179, 0.2);
@@ -8128,6 +8134,7 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
 .project-section {
   position: relative;
   overflow: hidden;
+  padding-inline: 30px;
 }
 .project-section.two {
   overflow: visible;
@@ -8328,7 +8335,7 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 95px 40px;
+  padding: 100px 40px 30px 40px;
   overflow: hidden;
   position: relative;
 }
@@ -8339,7 +8346,7 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
   }
 }
 .project-item-two .project-content {
-  width: 50%;
+  width: 70%;
 }
 @media only screen and (max-width: 1199px) {
   .project-item-two .project-content {
@@ -8348,13 +8355,14 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
   }
 }
 .project-item-two .project-content .title {
-  font-size: 35px;
+  font-size: 40px;
   color: #fff;
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 991px) {
   .project-item-two .project-content .title {
-    font-size: 24px;
+    font-size: 30px;
+    line-height: 30px;
   }
 }
 .project-item-two .project-content p {
@@ -8373,9 +8381,9 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
   }
 }
 .project-item-two.style {
-  background-color: #F8D458;
+  background-color: #fe9c00;
   display: block;
-  padding: 30px 20px;
+  padding: 15px 20px 40px 20px;
 }
 .project-item-two.style .project-content {
   width: 100%;
@@ -8769,7 +8777,7 @@ div[class*=col]:nth-of-type(2n + 2) .project-item::after {
   padding: 14px 20px;
 }
 .choose-content-footer .choose-video-btn a {
-  color: #F8D458;
+  color: #fe9c00;
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -8785,7 +8793,7 @@ div[class*=col]:nth-of-type(2n + 2) .project-item::after {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 1px solid #F8D458;
+  border: 1px solid #fe9c00;
   border-radius: 50%;
 }
 .choose-content-footer .choose-video-btn a::after {
@@ -9247,9 +9255,10 @@ div[class*=col]:nth-of-type(2n + 2) .project-item::after {
   margin-bottom: 40px;
 }
 .service-item.five {
-  background-color: #F5F8FF;
+  background-color: #e6e6e6;
   border-radius: 10px;
   padding: 40px 20px;
+  height: 100%;
 }
 .service-item.five .service-icon {
   margin-bottom: 30px;
@@ -9667,7 +9676,7 @@ div[class*=col]:nth-of-type(4n + 4) .service-item {
   margin-bottom: 0;
 }
 .statistics-item-area div[class*=col]:nth-of-type(2n + 2) .statistics-item {
-  background-color: #F8D458;
+  background-color: #fe9c00;
 }
 .statistics-item-area div[class*=col]:nth-of-type(2n + 2) .statistics-item .statistics-content p {
   color: #1C1C1C;
@@ -9679,7 +9688,7 @@ div[class*=col]:nth-of-type(4n + 4) .service-item {
   color: #1C1C1C;
 }
 .statistics-item-area .icon-box-items {
-  background: #F8D458;
+  background: #fe9c00;
   padding: 25px 20px 20px 20px;
   -webkit-filter: drop-shadow(0px 20px 20px rgba(50, 73, 179, 0.1));
           filter: drop-shadow(0px 20px 20px rgba(50, 73, 179, 0.1));
@@ -10516,7 +10525,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
   border-radius: 999px;
   font-size: 16px;
   font-weight: 400;
-  background-color: #F8D458;
+  background-color: #fe9c00;
   color: #1C1C1C;
   margin: 5px;
   display: initial;
@@ -11986,7 +11995,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
   left: 5px;
   width: 24px;
   height: 24px;
-  background-color: #F8D458;
+  background-color: #fe9c00;
   border-radius: 50%;
 }
 @media only screen and (max-width: 991px) {
@@ -12406,7 +12415,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
   color: #4B4B4B;
 }
 .faq-wrapper.two .faq-item.open .right-icon {
-  background-color: #F8D458;
+  background-color: #fe9c00;
 }
 .faq-wrapper.two .faq-item.open .right-icon::after {
   border-bottom: 2px solid #fff;
@@ -12918,7 +12927,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
   font-weight: 800;
 }
 .case-header .title span {
-  color: #F8D458;
+  color: #fe9c00;
   display: initial;
 }
 
@@ -13734,7 +13743,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
   margin-bottom: 30px;
 }
 .get-app-content .title span {
-  color: #F8D458;
+  color: #fe9c00;
 }
 .get-app-content p {
   font-size: 24px;
@@ -14004,7 +14013,7 @@ div[class*=col]:nth-of-type(3n + 3) .process-item.two::after {
   font-weight: 800;
 }
 .core-section .section-header .section-title span {
-  color: #F8D458;
+  color: #fe9c00;
 }
 
 .core-thumb {
@@ -14713,17 +14722,18 @@ div[class*=col]:nth-of-type(3n + 3) .process-item.two::after {
 
 .title-banner{
   margin-bottom: 20px !important;
+  font-size: 50px;
 }
 
 .image-navbar{
   height: 40px;
   width: auto;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 .btn-banner-cta{
   background-color: #F68300;
-  border:  #F68300;
+  border:  #fbb03b;
   margin-top: 30px;
 }
 
@@ -14733,16 +14743,15 @@ div[class*=col]:nth-of-type(3n + 3) .process-item.two::after {
 }
 .banner-image-container{
   height: 100%;
+  width: 50vw;
   display: flex;
 justify-content: center;
-  margin-top: 50px;
+  margin-top: 0;
   align-items: center;
 }
 
 .image-mockup{
-  width: 70%;
-  max-height: none;
-  margin-bottom: 5vh;
+  height: 75%;
 }
 
 .header-bottom-area .navbar-collapse .main-menu li a {
@@ -14806,6 +14815,12 @@ font-weight: 600  !important;
 font-style: normal  ;
 }
 
+.font-700{
+  font-family: "basic-sans", sans-serif  !important;
+font-weight: 700  !important;
+font-style: normal  ;
+}
+
 .font-900{
   font-family: "basic-sans", sans-serif  !important;
 font-weight: 900  !important;
@@ -14844,12 +14859,9 @@ font-style: normal;
 @media screen and (max-width: 700px){
 
   .footer-display{
-    justify-content: center;
+    justify-content: left;
   }
-  .image-testimonials{
-    display: none;
-  }
-  .image-mobile-contact{
+  .display-none-mobile {
     display: none;
   }
   .image-mobile-contact-before{
@@ -14857,5 +14869,248 @@ font-style: normal;
   }
   .banner-section{
     padding-left: 0;
+  }
+  .banner-section{
+    height: 100vh;
+    padding: 100px 0;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .clients-header-spacing{
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .padding-top-0-mobile {
+  }
+
+  .padding-mobile-banner{
+    padding-left: 30px;
+  }
+
+  /* .title-banner{
+    font-size: 30px;
+  }
+
+  .banner-text-ba{
+    font-size: 15px;
+  } */
+
+  .banner-br-bs{
+    display: none;
+  }
+
+  .banner-text-ba{
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+.banner-br-mobile{
+  font-size: 40px;
+}
+
+.display-none{
+  display: none;
+}
+
+textarea.form--control {
+  min-height: 100px;
+  max-height: 250px;
+  resize: vertical; /* Para permitir que el usuario redimensione verticalmente */
+}
+
+.bg-24-7-wrap{
+  position: relative;
+
+}
+.bg-24-7-wrap:before{
+
+content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/24-7-blanco.png');
+  background-size:  80%; /* Ajusta el tamaño según sea necesario */
+              background-repeat: no-repeat;
+              background-position: 200% 0%;
+              background-color: #73aed9;
+              opacity: 20%
+}
+
+
+
+.icon-bento{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+.icon-bento img{
+  height: 60px;
+  width: auto;
+}
+
+.bento-text{
+  font-size: 12px;
+}
+
+.text-sky{
+  color: #73aed9
+}
+
+.btn-send-form:hover svg {
+  rotate: 30 0;
+
+}
+.text-center{
+  text-align: left;
+}
+@media screen and (min-width: 900px) {
+  .display-none-bs{
+    display: none;
+  }
+  .banner-br-mobile{
+    display: none ;
+  }
+  .padding-nav-item-cont{
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .text-align{
+    text-align: left;
+  }
+
+  .displayer-bento-media{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+
+  .brand-item img{
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.banner-section{
+  height: 105vh;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 15px;
+  right: 10px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 90;
+}
+
+.whatsapp:hover {
+  background-color: #2dc565;
+}
+
+.whatsapp-icon {
+  margin-top: 10px;
+}
+
+.bento-box-24-7{
+  width: 80%; 
+}
+
+
+@media screen and (max-widt: 1100px) {
+  .whatsapp {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+    right: 10px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 90;
+}
+.whatsapp-icon {
+  width: 26px;
+  height: 24px;
+
+}
+
+.whatsapp:hover {
+
+  background-color: #2dc565;
+
+}
+
+.whatsapp-icon {
+  margin-top: 8px;
+}
+
+.image-mobile-contact-before{
+  display: none;
+}
+
+.bento-box-24-7{
+  width: 100%; 
+  text-align: left;
+}
+.section-contact{
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.client-section{
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+}
+
+.title-bento-section{
+  font-size: 45px;
+}
+
+.font-size-25{
+  font-size: 25px!;
+}
+
+.contact-section{
+  padding-inline: 30px !important;
+}
+.footer-section{
+  padding-inline: 30px !important
+}
+
+@media screen and (min-width: 1600px) {
+  .custom-container{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .text-banner-container{
+    width: 100%;
+  }
+  .title-banner{
+    font-size: 60px;
+  }
+  .banner-text-ba{
+    font-size: 1.5rem;
+  }
+  .image-mockup{
+    height: 65%;
   }
 }

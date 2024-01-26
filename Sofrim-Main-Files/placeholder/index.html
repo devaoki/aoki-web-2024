@@ -18,7 +18,7 @@
     <!-- favicon -->
     <link
       rel="shortcut icon"
-      href="assets/images/logo-favicon.ico"
+      href="assets/images/logo-favicon.png"
       type="image/x-icon"
     />
     <!-- swipper css link -->
@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <!-- main style css link -->
     <link rel="stylesheet" href="assets/css/style.css" />
-    \
+    
     <!-- fonts link -->
     <link rel="stylesheet" href="https://use.typekit.net/qsv2qai.css" />
   </head>
@@ -56,8 +56,8 @@
     End Preloader
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
+    <div class="cursor display-none-mobile"></div>
+    <div class="cursor-follower display-none-mobile"></div>
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Start Header
@@ -65,115 +65,95 @@
     <header class="header-section">
       <div class="header">
         <div class="header-bottom-area">
-          <div class="container custom-container">
+          <div class="container custom-container padding-nav-item-cont">
             <div class="header-menu-content">
+
               <nav class="navbar navbar-expand-xl p-0">
-                <a class="site-logo site-title" href="index.html"
-                  ><img
-                    src="assets/images/logo-aoki.png"
-                    alt="site-logo"
-                    class="image-navbar"
-                /></a>
-                <!-- <button class="navbar-toggler d-block d-xl-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="toggle-bar"></span>
-            </button>                 -->
-            <div
-                  class="collapse navbar-collapse justify-content-end"
-                  id="navbarSupportedContent"
-                >
-                  <div class="header-right">
-                    <div class="search-bar">
-                      <!-- <form class="header-search-form">
-                                        <input type="search" name="keyword" id="header_search" placeholder="Search...">
-                                        <button class="header-search-btn"><i class="las la-search"></i></button>
-                                    </form> -->
+                <a class="site-logo site-title" href="index.html"><img src="assets/images/logo-aoki.png" alt="site-logo"                     class="image-navbar display-none-mobile"
+                  ><img src="assets/images/logo-aoki.png" alt="site-logo"                     class="image-navbar display-none-bs"></a>
+                <button class="navbar-toggler d-block d-xl-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggle-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <div class="header-right">
+                        <div class="search-bar display-none">
+                            <form class="header-search-form">
+                                <input type="search" name="keyword" id="header_search" placeholder="Search...">
+                                <button class="header-search-btn"><i class="las la-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="header-links-area display-none">
+                            <ul class="header-links">
+                                <li>
+                                    <a href="mailto:">
+                                        <div class="links-thumb">
+                                            <img src="assets/images/icon/icon-1.png" alt="icon">
+                                        </div>
+                                        <span>info@softim.com</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:+11256326501">
+                                        <div class="links-thumb">
+                                            <img src="assets/images/icon/icon-2.png" alt="icon">
+                                        </div>
+                                        <span>+11 256 3265 01</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header-links-area display-none-mobile">
+                          <ul class="navbar-nav main-menu">
+                            <li class="menu_has_children">
+                                <a href="#0">Soluciones <i class="las la-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a >ChatBot</a></li>
+                                    <li><a >CRM</a></li>
+                                    <!-- <li><a href="index-three.html">OCR</a></li> -->
+                                    <li><a >Robot de Piking</a></li>
+                                    <!-- <li><a href="index-five.html">Home Five</a></li> -->
+                                </ul>
+                            </li>
+                            <li><a href="#about">Nosotros</a></li>
+                            <li><a href="#clients">Clientes</a></li>
+    
+                            <!-- <li><a href="#about">Noticias</a></li> -->
+                            <li><a href="#contact">Contacto </a></li>
+    
+                        </ul>
+                        </div>
+                        <!-- <button class="menu-toggler ml-auto">
+                            <span class="toggle-bar"></span>
+                        </button> -->
+                        <div class="menu-toggler-wrapper">
+                            <ul class="navbar-nav main-menu">
+                                <li class="menu_has_children">
+                                    <a href="#0">Soluciones <i class="las la-angle-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a >ChatBot</a></li>
+                                        <li><a >CRM</a></li>
+                                        <!-- <li><a >OCR</a></li> -->
+                                        <li><a >Robot de Piking</a></li>
+                                        <!-- <li><a href="index-five.html">Home Five</a></li> -->
+                                    </ul>
+                                </li>
+                                <li><a href="#about">Nosotros</a></li>
+                                <li><a href="#clients">Clientes</a></li>
+        
+                                <!-- <li><a href="#about">Noticias</a></li> -->
+                                <li><a href="#contact">Contactanos</a></li>
+        
+                            </ul>
+                        </div>
+                        <div class="header-action-area display-none">
+                            <div class="header-action">
+                                <a href="contact.html" class="btn--base">GET STARTED</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="header-links-area">
-                      <ul class="navbar-nav main-menu">
-                        <li class="menu_has_children">
-                          <a href="#0"
-                            >Soluciones <i class="las la-angle-down"></i
-                          ></a>
-                          <ul class="sub-menu">
-                            <li><a >ChatBot</a></li>
-                            <li><a >CRM</a></li>
-                            <li><a >OCR</a></li>
-                            <li><a >Robot de Piking</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#about">Nosotros</a></li>
-                        <li><a href="#clients">Clientes</a></li>
-
-                        <!-- <li><a href="#about">Noticias</a></li> -->
-                        <li><a href="#contact">Contactanos</a></li>
-
-                        <!-- <li class="menu_has_children">
-                          <a href="#0"
-                            >Nosotros <i class="las la-angle-down"></i
-                          ></a>
-                          <ul class="sub-menu">
-                            <li><a href="service.html">Service One</a></li>
-                            <li><a href="service-two.html">Service Two</a></li>
-                            <li>
-                              <a href="service-details.html">Service Details</a>
-                            </li>
-                            <li>
-                              <a href="service-details-two.html"
-                                >Service Details Two</a
-                              >
-                            </li>
-                          </ul>
-                        </li>
-                        <li><a href="portfolio.html">Noticias</a></li>
-                        <li class="menu_has_children">
-                          <a href="#0"
-                            >Contactanos 
-                            <i class="las la-angle-down"></i
-                          ></a>
-                          <ul class="sub-menu">
-                            <li><a href="project.html">Project</a></li>
-                            <li>
-                              <a href="project-details.html">Project Details</a>
-                            </li>
-                            <li><a href="product.html">Product</a></li>
-                            <li>
-                              <a href="product-details.html">Product Details</a>
-                            </li>
-                            <li><a href="cart.html">Cart</a></li>
-                            <li><a href="team.html">Team</a></li>
-                            <li>
-                              <a href="team-details.html">Team Details</a>
-                            </li>
-                            <li><a href="plan.html">Pricing Plan</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                          </ul>
-                        </li> -->
-                        <!-- <li class="menu_has_children">
-                                            <a href="#0">Blog <i class="las la-angle-down"></i></a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog-classic.html">Blog Classic</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li> -->
-                      </ul>
-                    </div>
-                    <!-- <button class="menu-toggler ml-auto">
-                                    <span class="toggle-bar"></span>
-                                </button>
-                                <div class="menu-toggler-wrapper">
-                                    
-                                </div> -->
-                    <!-- <div class="header-action-area">
-                                    <div class="header-action">
-                                        <a href="contact.html" class="btn--base">Registrarse</a>
-                                    </div>
-                                </div> -->
-                  </div>
                 </div>
-              </nav>
+            </nav>
             </div>
           </div>
         </div>
@@ -263,8 +243,8 @@
           />
         </div>
       </div>
-      <div class="container custom-container">
-        <div class="row align-items-end mb-30-none">
+      <div class="container custom-container padding-mobile-banner">
+        <div class="row align-items-end mb-30-none text-banner-container">
           <div class="col-xl-7 col-lg-7 mb-30">
             <div
               class="banner-content"
@@ -272,30 +252,38 @@
               data-aos-duration="1800"
             >
               <p
-                class="sub-title text-blue font-600"
+                class="sub-title text-blue font-400 font-copete"
                 style="text-transform: none"
               >
-                ¿Demorás en atender a tus clientes?
+                ¿Demorás en atender a <span class="font-700">tus clientes?</span>
               </p>
               <!-- <p class="copete-two">El 75% de los clientes cornpran si le respnden luego de 6 minutos</p> -->
 
-              <h1 class="title title-banner text-blue font-900">
+              <h1 class="title title-banner text-blue font-900 banner-br-bs">
                 Nuestro chatbot con IA<br />
-                responde a tus clientes<br />
-                de manera inmediata
+                responde de manera <br />
+                inmediata y personalizada
+              </h1>
+              <h1 class="title title-banner text-blue font-900 banner-br-mobile">
+                Nuestro chatbot<br /> 
+                con IA responde<br />
+                de manera<br />
+                inmediata<br />
+                y personalizada
               </h1>
               <!-- <span class="sub-title">Build Your Innovations & Digital Future</span> -->
               <p class="banner-text-ba font-400">
-                Mejorá la experiencia de tus clientes con
+                Mejorá la experiencia de <span class="bold-text font-700">tus clientes</span> con
                 <span class="bold-text">atención 24/7</span> <br />
                 y la <span class="bold-text">calidez</span> de nuestra IA o un
                 <span class="bold-text">menú de opciones</span>.<br />
                 <span class="bold-text">Unificá tus números</span> de WhatsApp
                 en uno solo.
               </p>
-              <div class="banner-arrow">
+              
+              <!-- <div class="banner-arrow">
                 <img src="assets/images/element/element-1.png" alt="element" />
-              </div>
+              </div> -->
               <!-- <div class="banner-widget">
                         <div class="banner-widget-wrapper">
                             <div class="banner-widget-left">
@@ -317,14 +305,15 @@
                     </div> -->
               <div class="banner-widget-right">
                 <div class="banner-widget-btn">
-                  <a href="#0" class="btn--base btn-banner-cta"
-                    >Quiero mi chatbot gratis</a
+                  <a href="#0" class="btn--base btn-banner-cta font-400"
+                    >Quiero mi <span class="font-700">chatbot  gratis</span></a
                   >
                 </div>
               </div>
             </div>
           </div>
         </div>
+        
       </div>
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -334,7 +323,10 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Start Scroll-To-Top
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <a href="#" class="scrollToTop"><i class="las la-angle-double-up"></i></a>
+    <a     href="https://walink.co/5a8454"
+    class="scrollToTop"     target="_blank"
+    >  <img src="./assets//images//whatsapp.png"></a>
+
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     End Scroll-To-Top
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -401,69 +393,60 @@
     Start Bento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <section class="project-section pt-120" id="about">
-      <div class="project-element-five">
+    <section class="project-section pt-60" id="about">
+      <!-- <div class="project-element-five">
         <img src="assets/images/element/element-91.png" alt="element" />
-      </div>
+      </div> -->
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-9 col-lg-10 text-center">
             <div class="section-header">
-              <span class="sub-title text-blue">por qué un chatbot</span>
-              <h1 class="section-title text-blue">5 razones para elegirnos</h1>
+              <span class="sub-title text-blue text-center">por qué un chatbot</span>
+              <h1 class="section-title text-blue text-center">5 razones para elegirnos</h1>
             </div>
           </div>
         </div>
         <div class="project-item-wrapper two">
           <div class="row justify-content-center mb-30-none">
             <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 mb-30">
-              <div class="project-item-two z-index-0" style="background: url('assets/images/24-7.png');
-              background-size:  80%; /* Ajusta el tamaño según sea necesario */
-        background-repeat: no-repeat;
-        background-position: top right;
-
-              background-color: #73aed9
-      ">
+              <div class="project-item-two z-index-0 bg-24-7-wrap" >
                
   
-                <div class="project-content" style="z-index: 9999">
-                     <div class="">
+                <div class="project-content bento-box-24-7" style="z-index: 9999; position: relative;
+                ">
                     <img
                     src="assets/images/24-7-blanco.png"
                       alt="element"
-                      height="50px"
                       width="auto"
                       style="max-width: none;
-                      height: 50px;
-                      
+                      height: 75px;
+                      margin-bottom: 3vh
                       "
                     />
-                  </div>
-                  <h2 class="title title-content">
+                  <h2 class="title title-content font-900 title-bento-section text-align">
                     <a href="project-details.html">Atención personalizada, inmediata 24/7</a>
                   </h2>
-                  <p>
-                    El 75% de los clientes NO COMPRAN<br />si les responden luego
-                  de 6 minutos
+                  <p class="text-align">
+                    El 75% de los clientes <span class="font-700">no compran</span> <br />si les responden<span class="font-700">luego de 6 minutos</span> 
                   </p>
                 </div>
               </div>
             </div>
             <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 mb-30">
-              <div class="project-item-two style">
+              <div class="project-item-two style" style="height: 100%">
                 <div class="project-thumb">
                   <img
                     src="assets/images/element/element-90.png"
                     alt="element"
                   />
                 </div>
-                <div class="project-content">
-                  <h2 class="title">
-                    <a href="project-details.html"
-                      >Unificá todas tus redes y números de WhatsApp en uno solo
+                <div class="project-content text-align">
+                  <h2 class="title font-900 title-bento-section text-align displayer-bento-media" style="color: white; opacity: 80%">
+                    <a href="project-details.html" class="text-align"
+                      >Unificá tu<br/> comunicación <br/>en 1 solo lugar
                     </a>
                   </h2>
-                  <p>Conecta fácilmente tu plataforma de ventas</p>
+                  <!-- <p>Conecta fácilmente tu plataforma de ventas</p> -->
                 </div>
               </div>
             </div>
@@ -472,37 +455,37 @@
         <div class="service-wrapper-area mt-30">
           <div class="row justify-content-center mb-30-none">
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
-              <div class="service-item two five">
-                <div class="service-icon">
-                  <!-- <img src="assets/images/icon/icon-40.png" alt="icon" /> -->
+              <div class="service-item two five ">
+                <div class="service-icon icon-bento">
+                  <img src="assets/images/logo-multiagente.png" alt="icon" />
                 </div>
-                <div class="service-content">
-                  <h3 class="title">Muchos agentes pueden atender un mismo número</h3>
-                  <p>Multiagente estilo WhatsApp Web para Call Center.<br/>
+                <div class="service-content text-center">
+                  <h3 class="title font-700 title-bento-section text-blue font-size-25">Muchos agentes pueden atender un mismo número</h3>
+                  <p class="bento-text font-400 text-blue">Multiagente estilo WhatsApp Web para Call Center.<br/>
                 Estadísticas de desempeño de tus agentes</p>
                 </div>
               </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
               <div class="service-item two five">
-                <div class="service-icon">
-                  <!-- <img src="assets/images/icon/icon-41.png" alt="icon" /> -->
+                <div class="service-icon icon-bento">
+                  <img src="assets/images/logo-envio.png" alt="icon" />
                 </div>
-                <div class="service-content">
-                  <h3 class="title">Enviá comprobantes y alertas automáticamente</h3>
-                  <p>El 85% de los usuarios prefieren hablar
+                <div class="service-content text-center">
+                  <h3 class="title font-700 title-bento-section text-blue font-size-25">Enviá comprobantes y alertas automáticamente</h3>
+                  <p class="bento-text font-400 text-blue">El 85% de los usuarios prefieren hablar
                     con un asistente virtual antes que una persona</p>
                 </div>
               </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
               <div class="service-item two five">
-                <div class="service-icon">
-                  <!-- <img src="assets/images/icon/icon-42.png" alt="icon" /> -->
+                <div class="service-icon icon-bento">
+                  <img src="assets/images/logo-estadisticas.png" alt="icon" />
                 </div>
-                <div class="service-content">
-                  <h3 class="title">Informes de ventas y CRM integrado en el chat</h3>
-                  <p>Tus agentes pueden ver información del cliente mientras chatean</p>
+                <div class="service-content text-center">
+                  <h3 class="title font-700 title-bento-section text-blue font-size-25">Informes de ventas y CRM integrado en el chat</h3>
+                  <p class="bento-text font-400 text-blue">Tus agentes pueden ver información del cliente mientras chatean</p>
                 </div>
               </div>
             </div>
@@ -1138,19 +1121,19 @@
     </div>
 </section> -->
     <section class="client-section two pb-120" style="padding-top: 50px;" id="clients">
-      <div class="client-element-one two">
+      <!-- <div class="client-element-one two">
         <img src="assets/images/element/element-66.png" alt="element" />
-      </div>
-      <div class="client-element-two two">
+      </div> -->
+      <!-- <div class="client-element-two two">
         <img src="assets/images/element/element-45.png" alt="element" />
-      </div>
-      <div class="client-element-three">
-        <!-- <img src="assets/images/element/element-46.png" alt="element" /> -->
-      </div>
+      </div> -->
+      <!-- <div class="client-element-three">
+        <img src="assets/images/element/element-46.png" alt="element" />
+      </div> -->
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-7 col-lg-8 text-center clients-section-size">
-            <div class="section-header">
+            <div class="section-header clients-header-spacing">
               <h2 class="section-title text-blue">
                 Clientes que confían en nosotros
               </h2>
@@ -1166,7 +1149,7 @@
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
-                    style="color: rgb(115, 174, 217)"
+                    style="color: #fe9c00"
                   >
                     <path
                       d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
@@ -1184,7 +1167,7 @@
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
-                    style="color: rgb(115, 174, 217)"
+                    style="color: #fe9c00"
                   >
                     <path
                       d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
@@ -1202,7 +1185,7 @@
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
-                    style="color: rgb(115, 174, 217)"
+                    style="color: #fe9c00"
                   >
                     <path
                       d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
@@ -1220,7 +1203,7 @@
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
-                    style="color: rgb(115, 174, 217)"
+                    style="color:#fe9c00"
                   >
                     <path
                       d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
@@ -1238,7 +1221,7 @@
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
-                    style="color: rgb(115, 174, 217)"
+                    style="color: #fe9c00"
                   >
                     <path
                       d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
@@ -1253,10 +1236,10 @@
           <div class="row justify-content-center align-items-end mb-30-none" style="margin-bottom: 50px;">
             <div class="col-xl-8 col-lg-8 col-md-6 mb-30">
               <div class="client-slider-area two">
-                <div class="client-slider-two">
+                <div class="client-slider-two padding-top-0-mobile">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <div class="client-item">
+                      <div class="client-item padding-top-0-mobile">
                         <div class="client-header">
                           <div class="client-quote">
                             <img
@@ -1280,14 +1263,14 @@
                         </div>
                         <div class="client-footer">
                           <div class="client-footer-left">
-                            <h4 class="title">Lorena Comino</h4>
-                            <span class="sub-title">CEO - Facturante</span>
+                            <h4 class="title text-blue font-700">Lorena Comino</h4>
+                            <span class="sub-title font-600 text-sky">CEO - Facturante</span>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="client-item">
+                      <div class="client-item padding-top-0-mobile">
                         <div class="client-header">
                           <div class="client-quote">
                             <img
@@ -1311,14 +1294,14 @@
                         </div>
                         <div class="client-footer">
                           <div class="client-footer-left">
-                            <h4 class="title">Jimena Balabui</h4>
-                            <span class="sub-title">CEO - Distrisuper</span>
+                            <h4 class="title text-blue font-700">Jimena Balabui</h4>
+                            <span class="sub-title font-600 text-sky">CEO - Distrisuper</span>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="client-item">
+                      <div class="client-item padding-top-0-mobile">
                         <div class="client-header">
                           <div class="client-quote">
                             <img
@@ -1342,8 +1325,8 @@
                         </div>
                         <div class="client-footer">
                           <div class="client-footer-left">
-                            <h4 class="title">Fernando Scholtus</h4>
-                            <span class="sub-title">Decano - UTN</span>
+                            <h4 class="title text-blue font-700">Fernando Scholtus</h4>
+                            <span class="sub-title font-600 text-sky">Decano - UTN</span>
                           </div>
                         </div>
                       </div>
@@ -1352,7 +1335,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 mb-30 image-testimonials">
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30 display-none-mobile">
               <div class="client-right-thumb" style="background: transparent;">
                 <img src="assets/images/logo-aoki-iso.png" alt="client" />
                 <div class="client-thumb-element">
@@ -1383,27 +1366,27 @@
                     </div> -->
                     <div class="swiper-slide">
                         <div class="brand-item">
-                            <img src="assets/images/client/client-oesch.png" height="75px" width="auto" alt="brand">
+                            <img src="assets/images/client/client-oesch.png" height="auto" width="auto" style="max-height: none"alt="brand">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-item">
-                            <img src="assets/images/client/client-distri.png" height="75px" width="auto" alt="brand">
+                            <img src="assets/images/client/client-distri.png" height="auto" width="auto" style="max-height: none"alt="brand">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-item">
-                            <img src="assets/images/client/client-utn.png" height="75px" width="auto" alt="brand">
+                            <img src="assets/images/client/client-utn.png" height="auto" width="auto" style="max-height: none"alt="brand">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-item">
-                            <img src="assets/images/client/client-factu.png" height="75px" width="auto" alt="brand">
+                            <img src="assets/images/client/client-factu.png" height="auto" width="auto" style="max-height: none"alt="brand">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-item">
-                            <img src="assets/images/client/client-aqua.png" height="75px" width="auto" alt="brand">
+                            <img src="assets/images/client/client-aqua.png" height="75px" width="auto" style="max-height: none" alt="brand">
                         </div>
                     </div>
                     <!-- <div class="swiper-slide">
@@ -1437,13 +1420,13 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="contact-section two pb-120" id="contact">
       <div class="container">
-        <div class="contact-element-one">
+        <!-- <div class="contact-element-one">
           <img src="assets/images/element/element-6.png" alt="element" />
         </div>
-        <div class="contact-element-two">
+        <div class="contact-element-two display-none">
           <img src="assets/images/element/element-39.png" alt="element" />
         </div>
-        <div class="contact-element-three">
+        <div class="contact-element-three display-none">
           <img src="assets/images/element/element-26.png" alt="element" />
         </div>
         <div class="contact-element-four">
@@ -1455,21 +1438,21 @@
           </div>
           <div class="contact-element-six">
             <img src="assets/images/element/element-60.png" alt="element" />
-          </div>
+          </div> -->
           <div class="row mb-30-none">
-            <div class="col-xl-5 col-lg-5 mb-30 image-mobile-contact">
+            <div class="col-xl-5 col-lg-5 mb-30 display-none-mobile">
               <div class="contact-thumb">
                 <img src="assets/images/contact-img.png" alt="contact" />
               </div>
             </div>
-            <div class="col-xl-7 col-lg-7 mb-30">
+            <div class="col-xl-7 col-lg-7 mb-30 section-contact">
               <div class="contact-form-area">
                 <div class="contact-form-header">
                   <div class="left">
                     <h2 class="title text-blue">
                         Contactanos                    </h2>
                     <p>
-                      Si querés probar nuestras soluciones o trabajar con nosotros, escribinos:
+                      Para probar nuestros servicios o unirte al equipo, escribinos:
                     </p>
                   </div>
                   <div class="right">
@@ -1485,6 +1468,9 @@
                         viewBox="0 0 300 300"
                         enable-background="new 0 0 300 300"
                         xml:space="preserve"
+                        style="
+    scale: .9;
+"
                       >
                         <defs>
                           <path
@@ -1504,69 +1490,55 @@
                       </svg>
                     </div>
                     <div class="contact-logo">
-                      <img src="assets/images/logo-aoki-bg.png" alt="favicon" height="100%" width="100%" />
+                      <img src="assets/images/logo-aoki-bg.png" alt="favicon" height="auto" width="90%" style="border-radius: 50%;" />
                     </div>
                   </div>
                 </div>
-                <form class="contact-form">
+                <form id="contactForm" class="contact-form">
                   <div class="row justify-content-center mb-30-none">
                     <div class="col-xl-6 col-lg-6 form-group">
                       <input
                         type="text"
                         class="form--control"
-                        placeholder="Tu Nombre Completo"
+                        placeholder="Nombre y Apellido"
+                        maxlength="50"
+                        id="name"
                       />
                     </div>
-                    
+              
                     <div class="col-xl-6 col-lg-6 form-group">
                       <input
                         type="text"
                         class="form--control"
                         placeholder="Teléfono o Email"
-                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+                        id="phoneEmail"
                       />
                     </div>
-                    <!-- <div class="col-xl-6 col-lg-6 form-group">
-                      <div class="contact-select">
-                        <select class="form--control">
-                          <option value="1">Service Required</option>
-                          <option value="2">Web Design</option>
-                          <option value="3">Digital Marketing</option>
-                          <option value="4">Search SEO</option>
-                          <option value="5">Web Development</option>
-                        </select>
-                      </div>
-                    </div> -->
+              
                     <div class="col-xl-12 form-group">
                       <textarea
                         class="form--control"
-                        placeholder="Tú Mensaje"
+                        placeholder="Mensaje"
+                        id="message"
+                        maxlength="5000"
                       ></textarea>
                     </div>
                     <div class="col-xl-12 form-group custom-form-group mt-20">
-                      <!-- <div class="form-group custom-check-group">
-                        <input type="checkbox" id="level-1" />
-                        <label for="level-1"
-                          >Acepto del
-                          <a href="#0" class="text--base"
-                            >Términos y Condiciones</a
-                          ></label
-                        >
-                      </div> -->
-                      <button type="submit" class="btn--base btn-banner-cta">
-                        Enviar
+                      <button type="button" class="btn--base btn-banner-cta" onclick="submitForm()">
+                        Enviar   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"></path></svg>
+
                       </button>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
-            <div class="col-xl-5 col-lg-5 mb-30 image-mobile-contact-before">
+            <!-- <div class="col-xl-5 col-lg-5 mb-30 image-mobile-contact-before">
                 <div class="contact-thumb">
                   <img src="assets/images/contact-img.png" alt="contact" />
                 </div>
               </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -1990,7 +1962,7 @@
     Start Footer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <footer class="footer-section pt-120">
-      <div class="footer-element-one">
+      <!-- <div class="footer-element-one">
         <img src="assets/images/element/element-48.png" alt="element" />
       </div>
       <div class="footer-element-two">
@@ -2010,7 +1982,7 @@
       </div>
       <div class="footer-element-seven">
         <img src="assets/images/element/element-39.png" alt="element" />
-      </div>
+      </div> -->
       <div class="container">
         <div class="row mb-30-none footer-display">
             <div class="footer-logo">
@@ -2093,10 +2065,45 @@
         </div> -->
       </div>
     </footer>
+   
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     End Footer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
+<!--Send Form-->
+<script>
+  // Ahora puedes acceder directamente a la variable emailSender
+  async function submitForm() {
+    try {
+      const name = document.getElementById('name').value;
+      const phoneEmail = document.getElementById('phoneEmail').value;
+      const message = document.getElementById('message').value;
+
+      const formDataToSend = new FormData();
+      formDataToSend.append("name", name);
+      formDataToSend.append("phoneEmail", phoneEmail);
+      formDataToSend.append("message", message);
+
+      // Enviar la información con axios
+      const response = await axios.post("https://api-node-crm.rj.r.appspot.com/api/email/send", formDataToSend);
+
+      if (response.data.ok) {
+        // Manejar el éxito
+        document.getElementById('name').value = '';
+        document.getElementById('phoneEmail').value = '';
+        document.getElementById('message').value = '';
+        console.log("Éxito en la solicitud:", response.data);
+      } else {
+        // Manejar el error
+        console.log("Error en la solicitud:", response.statusText);
+      }
+    } catch (error) {
+      // Manejar errores de conexión u otros errores
+      console.log("Error al enviar la solicitud:", error);
+    }
+  }
+</script>
     <!-- jquery -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <!-- bootstrap js -->
