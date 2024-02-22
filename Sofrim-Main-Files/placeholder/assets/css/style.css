@@ -15341,3 +15341,12 @@ content: ' ';
 .btn-log-nav a::before {
   display: none;
 }
+
+.footer-link{
+  font-size: small;
+  color: #0881a3;
+}
+
+.footer-link:hover{
+  color: #0881a3;
+}
