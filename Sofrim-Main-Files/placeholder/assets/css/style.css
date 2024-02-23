@@ -12782,13 +12782,25 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
 .payment-section {
   position: relative;
   overflow: hidden;
+  height: 110vh;
+  @media screen and (max-width: 700px) {
+    height: min-content;
+    padding-left: 10vw  ;
+    padding-right: 10vw  ;
+    padding-bottom: 0;
+  }
 }
 
 .payment-thumb {
-  position: absolute;
+  /* position: absolute;
   bottom: -120px;
-  left: -120px;
+  left: -120px; */
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  height: 90vh;
 }
+
 @media only screen and (max-width: 991px) {
   .payment-thumb {
     position: unset;
@@ -12814,7 +12826,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
 .payment-content .payment-list li {
   font-size: 18px;
   font-weight: 600;
-  color: #1C1C1C;
+  color: #0881a3;
   position: relative;
   padding-bottom: 25px;
   padding-left: 40px;
@@ -12831,7 +12843,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
   width: 20px;
   height: 20px;
   line-height: 20px;
-  background-color: #0881a3;
+  background-color:#0881a3;
   border-radius: 50%;
   text-align: center;
   top: 3px;
@@ -15349,4 +15361,66 @@ content: ' ';
 
 .footer-link:hover{
   color: #0881a3;
+}
+
+.title-leg{
+  font-size: 30px;
+}
+
+.section-leg {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.copete-leg {
+  font-style: italic;
+}
+
+.width-testimonials{
+      flex: 0 0 100%;
+      max-width: 100%;
+}
+.testimonials-wraper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @media screen and (min-width: 1100px){
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  
+  }
+}
+
+.meli-copete{
+  margin-bottom: 0;
+}
+
+.meli-title{
+  line-height: 1.1em;
+  margin-bottom: 25px;
+  @media screen and (max-width: 700px){
+    margin-bottom: 15px;
+  }
+}
+
+.meli-text{
+
+}
+
+.payment-content .payment-btn{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.payment-content{
+  position: relative;
+}
+
+.btn-meli{
+  background-color: #f8d458 !important;
+  background: #f8d458;
 }
