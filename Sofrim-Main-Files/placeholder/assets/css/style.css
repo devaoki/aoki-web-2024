@@ -15421,6 +15421,5 @@ content: ' ';
 }
 
 .btn-meli{
-  background-color: #f8d458 !important;
-  background: #f8d458;
+  background: linear-gradient(to right, #4ccb5a 30%, #fdd002 70%) !important;
 }
