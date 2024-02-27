@@ -257,6 +257,9 @@
             </div>
         </div>
     </div>
+    <img src="./assets/images/fondo izq.png" alt="celular-mockup-izquierda" class="left-phone display-none-mobile"/>
+    <img src="./assets/images/fondo der.png" alt="celular-mockup-derecha" class="right-phone display-none-mobile"/>
+
 </section>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     End Banner
@@ -288,15 +291,20 @@
       End Scroll-To-Top
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-<section class="mockup pt-120">
+<section class="mockup pt-120 padding-meli-banner">
     <div class="meli-mockup-component">
-        <p class="title-meli-list font-900" style="margin-bottom: 10px;">RESPONDE <span class="title-meli-list-color">+ RÁPIDO</span></p>
+        <p class="title-meli-list font-900 display-none-bs" style="margin-bottom: 10px;">RESPONDE <span class="title-meli-list-color">+ RÁPIDO</span></p>
     </div>
     <div class="mockup-meli-component">
-        <!-- <div class="video-meli-component">
-            FOTO
-        </div> -->
-        <div class="text-meli-component">
+        <div class="video-meli-component">
+            <video class="video-meli"  muted autoplay>
+                <source src="./assets/images/videos/MeLiVideo.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+            <div class="text-meli-component display-none-mobile">
+                <p class="title-meli-list font-900 " style="margin-bottom: 10px;">RESPONDE <span class="title-meli-list-color">+ RÁPIDO</span></p>
+
             <ul>
                 <li class="text-li-meli font-600">
                     <img src="./assets/images/icon/check-nyb.png" alt="icon" height="30" width="30" style="
@@ -329,9 +337,50 @@
                     Unificá números de teléfonos
                 </li>
             </ul>
+            <a href="https://bit.ly/AokiIntegracionMercadoLibre" target="_blank" class="btn--base btn-banner-cta btn-asesor font-400 align-center cta-size-banner btn-meli btn-meli-landing" style="margin-top: 30px;">
+                <span style="display: flex;align-items: center;justify-content: center;">Vincular mi
+                    <img src="assets/images/icon/Logo MeLi.svg"width="30"  height="30"  style="margin: 0 7px;"/>
+              
+                  con mi 
+                  <img src="assets/images/icon/Logo Wapp.svg" height="22" width="22" style="margin: 0 7px;"/>
+        
+                </span>
+              </a> 
         </div>
+        
     </div>
-
+    <ul class="display-none-bs ul-mobile-meli">
+        <li class="text-li-meli font-600">
+            <img src="./assets/images/icon/check-nyb.png" alt="icon" height="30" width="30" style="
+            margin-right: 10px;
+        "/>
+            Reducí tus tiempos de respuesta
+        </li>
+        <li class="text-li-meli font-600">
+            <img src="./assets/images/icon/check-nyb.png" alt="icon" height="30" width="30" style="
+            margin-right: 10px;
+        "/>
+            Aumentá tus ventas
+        </li>
+        <li class="text-li-meli font-600">
+            <img src="./assets/images/icon/check-nyb.png" alt="icon" height="30" width="30" style="
+            margin-right: 10px;
+        "/>
+            Obtené una mejor calificación
+        </li>
+        <li class="text-li-meli font-600">
+            <img src="./assets/images/icon/check-nyb.png" alt="icon" height="30" width="30" style="
+            margin-right: 10px;
+        "/>
+            Mejorá tu alcance
+        </li>
+        <li class="text-li-meli font-600">
+            <img src="./assets/images/icon/check-nyb.png" alt="icon" height="30" width="30" style="
+            margin-right: 10px;
+        "/>
+            Unificá números de teléfonos
+        </li>
+    </ul>
 </section>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -350,12 +399,20 @@
         </div>
         <div class="row justify-content-center mb-30-none">
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
-                <div class="process-item two text-center">
+                <div class="process-item two text-center" style="
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                height: 100%;
+
+            ">
                     <div class="process-icon">
                         <img src="assets/images/icon/vinculacion.png" class="icons-size" alt="icon" height="100" width="100">
                     </div>
                     <div class="process-content">
-                        <h3 class="title font-900" style="color: #4d4d4d;">Click en el botón de abajo</h3>
+                        <p class="title font-900" style="color: #4d4d4d;">Click en el botón de abajo</p>
+
+                        <img src="./assets/images/element/flechassss.png" alt="arrow down" height="40" width="40" class="display-none-bs" style="transform: rotate(90deg) scaleY(-1); margin: 0 25px"/>
                         <!-- <p>Vinculá tu cuenta de Mercado Libre</p> -->
                         <!-- <p class="font-600" style="color: #4d4d4d;">Registrate en nuestro panel</p> -->
 
@@ -368,9 +425,10 @@
                         <img src="assets/images/icon/logo del login.png" class="icons-size" alt="icon" height="100" width="100">
                     </div>
                     <div class="process-content">
-                        <h3 class="title font-900" style="color: #4d4d4d;">Vinculá tu cuenta MeLi</h3>
+                        <p class="title font-900" style="color: #4d4d4d;">Vinculá tu cuenta MeLi</p>
                         <!-- <p>Creá tu usuario</p> -->
                         <!-- <p class="font-600" style="color: #4d4d4d;">Registrate en nuestro panel</p> -->
+                        <img src="./assets/images/element/flechassss.png" alt="arrow down" height="40" width="40" class="display-none-bs" style="transform: rotate(90deg) scaleY(-1); margin: 0 25px"/>
 
                     </div>
                 </div>
@@ -381,8 +439,9 @@
                         <img src="assets/images/icon/chat.png" class="icons-size" alt="icon" height="100" width="100">
                     </div>
                     <div class="process-content">
-                        <h3 class="title font-900" style="color: #4d4d4d;">Contestá las preguntas en WhatsApp</h3>
+                        <p class="title font-900" style="color: #4d4d4d;">Contestá las preguntas en WhatsApp</p>
                         <!-- <p class="font-600" style="color: #4d4d4d;">Registrate en nuestro panel</p> -->
+                        
                     </div>
                 </div>
             </div>
@@ -390,7 +449,7 @@
     </div>
     
 </section>
-<div style="display: flex; justify-content: center; width: 100vw;">
+<div style="display: flex; justify-content: center; width: 100vw; margin-bottom: 25px">
     <a href="https://bit.ly/AokiIntegracionMercadoLibre" target="_blank" class="btn--base btn-banner-cta btn-asesor font-400 align-center cta-size-banner btn-meli btn-meli-landing" >
         <span style="display: flex;align-items: center;justify-content: center;">Vincular mi
             <img src="assets/images/icon/Logo MeLi.svg"width="30"  height="30"  style="margin: 0 7px;"/>

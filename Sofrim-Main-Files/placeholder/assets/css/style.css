@@ -4980,7 +4980,7 @@ option {
   background: #F5F8FF;
 }
 .banner-section.five {
-  background: #F5F8FF;
+  background: transparent;
   padding-top: 200px;
   padding-bottom: 0;
 }
@@ -13806,7 +13806,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
    Process block
 ---------------------------------------------------*/
 .process-section-two {
-  background-color: #F9F9F9;
+  background-color: transparent;
 }
 
 .process-item.two {
@@ -15467,8 +15467,46 @@ content: ' ';
   }
 }
 
-.meli-banner{
+.meli-banner {
   padding-top: 100px;
+  position: relative; /* Establece el contenedor como relativo para el posicionamiento absoluto de los elementos hijos */
+  height: 70vh !important;
+  @media screen and (max-width: 900px) {
+    height: 100vh !important;
+  }
+}
+
+.left-phone {
+  position: absolute; /* Establece el posicionamiento absoluto para las imágenes */
+
+  left: 200px; /* Coloca la imagen del celular izquierdo al lado izquierdo del contenedor */
+  top: 100px;
+  height: 40vh;
+  -webkit-animation: scroll-down 2s linear infinite;
+  animation: scroll-down 2s linear infinite;
+
+    @media screen and (min-width: 900px){
+      left: 50px;
+      height: 50vh;
+
+  }
+
+}
+
+.right-phone {
+  position: absolute; /* Establece el posicionamiento absoluto para las imágenes */
+  right: 50px;
+  height: 50vh;
+  top: 100px;
+  -webkit-animation: scroll-down 2s linear infinite;
+  animation: scroll-down 2s linear infinite;
+
+
+  @media screen and (min-width: 900px){
+    right: 45px; /* Coloca la imagen del celular derecho al lado derecho del contenedor */
+    height: 50vh;
+}
+
 }
 
 .title-meli-list{
@@ -15486,8 +15524,10 @@ content: ' ';
 
 .text-li-meli{
   color: #0881a3;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   display: flex;
+  font-size: 30px;
+
     align-items: center;
     @media screen and (max-width: 900px) {
       font-size: 23px;
@@ -15499,15 +15539,12 @@ content: ' ';
   justify-content: center;
   padding: 0 5vw;
   width: 100%;
-  @media screen and (min-width: 900px){
-    width: 80vw;
 
-  }
 }
 
 .text-meli-component,
 .video-meli-component{
-  width: 50%;
+  width: fit-content;
   @media screen and (max-width: 900px) {
     width: 100%;
   }
@@ -15517,6 +15554,7 @@ content: ' ';
   font-size: 4vw;
   @media screen and (max-width: 900px) {
     font-size: 9vw;
+    margin-bottom: 30px !important;
   }
 }
 
@@ -15561,5 +15599,43 @@ content: ' ';
 .icons-size{
   @media screen and (max-width: 900px){
     width: 80px !important;
+  }
+}
+
+.mockup {
+background: transparent;
+}
+
+.video-meli{
+  height: 50vh;
+  @media screen and (max-width: 1400px){
+    height: 75vh;
+  }
+ 
+}
+
+.video-meli-component{
+  display: flex;
+  justify-content: center;
+  @media screen and (min-width: 1200px){
+    margin-right: 25px;
+    justify-content: flex-end;
+
+  }
+}
+
+
+.ul-mobile-meli{
+  margin-top: 30px;
+  padding: 0 5vw;
+}
+
+.ul-mobile-meli li {
+  font-size: 22px;
+}
+
+.padding-meli-banner{
+  @media screen and (max-width: 900px) {
+    padding-top: 20px;
   }
 }
