@@ -167,7 +167,7 @@
     
                             <li><a href="#contact">Contacto </a></li>
                             <!-- <li class="btn-reg-nav"><a href="https://admin-panel.aokitech.com.ar/auth" target="_blank"><span class="font-700 ">Registrate</span></a></li> -->
-                            <li ><a href="https://admin-panel.aokitech.com.ar/auth" target="_blank">Iniciar Sesión</a></li>
+                            <li ><a href="https://admin-panel.aokitech.com.ar/auth/login" target="_blank">Iniciar Sesión</a></li>
 
                         </ul>
                         </div>
@@ -187,7 +187,7 @@
         
                                 <li><a href="#contact">Contactanos</a></li>
                                 <!-- <li class="btn-reg-nav"><a href="https://admin-panel.aokitech.com.ar/auth" id="register" target="_blank"><span class="font-700 ">Registrate</span></a></li> -->
-                                <li ><a href="https://admin-panel.aokitech.com.ar/auth" id="login" target="_blank">Iniciar Sesión</a></li>
+                                <li ><a href="https://admin-panel.aokitech.com.ar/auth/login" id="login" target="_blank">Iniciar Sesión</a></li>
     
         
                             </ul>
@@ -297,10 +297,25 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Start Scroll-To-Top
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <a     href="https://bit.ly/AOKIComunicateConNosotros"
-    class="scrollToTop" id="whatsapp_btn_scroll"    target="_blank"
-    >  <img src="./assets//images//whatsapp.png"><p style="display: none;">wpp</p></a>
-
+<script>
+  // Define la función en línea
+  function trackButtonClick(buttonId) {
+      // Envía el evento a Google Analytics 4
+      gtag('event', 'click', {
+          'event_category': 'Button Click', // Categoría del evento
+          'event_label': buttonId // Etiqueta del evento (identificador del botón)
+      });
+  }
+  </script>
+  
+  <a href="https://bit.ly/AOKIComunicateConNosotros"
+     class="scrollToTop" 
+     id="whatsapp_btn_scroll" 
+     target="_blank"
+     onclick="trackButtonClick('Home-Btn-Wpp');">
+     <img src="./assets/images/whatsapp.png" alt="WhatsApp">
+  </a>
+  
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     End Scroll-To-Top
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
