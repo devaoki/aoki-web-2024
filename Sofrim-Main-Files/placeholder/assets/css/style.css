@@ -5000,8 +5000,8 @@ option {
   position: absolute;
   top: 40%;
   left: 5%;
-  -webkit-animation: rotate 25s linear infinite;
-          animation: rotate 25s linear infinite;
+  -webkit-animation: scroll-down 2s linear infinite;
+          animation: scroll-down 2s linear infinite;
 }
 @media only screen and (max-width: 991px) {
   .banner-section.five .banner-element-thirty-one {
@@ -13816,10 +13816,12 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
   margin-bottom: 15px;
 }
 .process-item.two::after {
-  background-image: url(../images/element/element-96.png);
-  top: 10%;
-  right: -45%;
+  background-image: url(../images/element/flechassss.png);
+  background-size: 60px;
+  top: 40%;
+  right: -15%;
 }
+
 @media only screen and (max-width: 1199px) {
   .process-item.two::after {
     display: none;
@@ -15421,12 +15423,143 @@ content: ' ';
 }
 
 .btn-meli{
-  background: linear-gradient(to right, #4ccb5a 30%, #fdd002 70%) !important;
+  background: #0881a3;
+  padding: 11px;
 }
 
 .btn-contact-size {
   width: 100%;
   @media screen and (min-width: 1100px){
     width: 40%;
+  }
+}
+
+.payment-thumb img {
+  @media screen and (min-width: 1500px) {
+    height: fit-content;
+
+  }
+}
+
+.mockup-meli-component{
+  display: flex;
+  justify-content: center;
+}
+
+.meli-mockup-component{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.meli-title{
+  color: #0881a3;
+}
+
+.banner-section .banner-content.three .meli-title {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 1.05em;
+  margin-bottom: 20px;
+  color: #0881a3;
+  @media screen and (max-width: 900px){
+    font-size: 50px;
+  }
+}
+
+.meli-banner{
+  padding-top: 100px;
+}
+
+.title-meli-list{
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #0881a3;
+  font-size: 5vw;
+}
+
+.title-meli-list-color{
+  color: #0881a3;
+  -webkit-text-stroke-width: 0px;
+  font-style: italic;
+}
+
+.text-li-meli{
+  color: #0881a3;
+  margin-bottom: 10px;
+  display: flex;
+    align-items: center;
+    @media screen and (max-width: 900px) {
+      font-size: 23px;
+    }
+}
+
+.mockup-meli-component{
+  display: flex;
+  justify-content: center;
+  padding: 0 5vw;
+  width: 100%;
+  @media screen and (min-width: 900px){
+    width: 80vw;
+
+  }
+}
+
+.text-meli-component,
+.video-meli-component{
+  width: 50%;
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
+}
+
+.title-meli-list{
+  font-size: 4vw;
+  @media screen and (max-width: 900px) {
+    font-size: 9vw;
+  }
+}
+
+.bg-meli {
+  background-image: url(../images/bg-banner.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.bg-meli-phones{
+  background-image: url(../images/AOKI\ -\ celulares\ fondo_Mesa\ de\ trabajo\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 80vh;
+
+}
+
+.btn-meli-landing{
+  width: 30vw !important;
+  @media screen and (max-width: 900px) {
+    width: 70vw !important;
+  }
+}
+
+.testimonial-meli{
+  display: flex;
+  justify-content: center;
+
+}
+
+.testimonial-box{
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  padding: 2vw;
+  border-radius: 25px;
+}
+
+.icons-size{
+  @media screen and (max-width: 900px){
+    width: 80px !important;
   }
 }
