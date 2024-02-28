@@ -15452,9 +15452,6 @@ content: ' ';
   font-weight: bolder;
 }
 
-.meli-title{
-  color: #0881a3;
-}
 
 .banner-section .banner-content.three .meli-title {
   font-size: 70px;
@@ -15465,12 +15462,20 @@ content: ' ';
   @media screen and (max-width: 900px){
     font-size: 50px;
   }
+  
+}
+
+.banner-section .banner-content.three .meli-title {
+  @media screen and (max-width: 1400px) and (min-width: 900px) {
+    font-size: 60px;
+  }
 }
 
 .meli-banner {
   padding-top: 100px;
   position: relative; /* Establece el contenedor como relativo para el posicionamiento absoluto de los elementos hijos */
-  height: 70vh !important;
+  height: fit-content !important;
+  padding-left: 0;
   @media screen and (max-width: 900px) {
     height: 100vh !important;
   }
@@ -15481,13 +15486,13 @@ content: ' ';
 
   left: 200px; /* Coloca la imagen del celular izquierdo al lado izquierdo del contenedor */
   top: 100px;
-  height: 40vh;
+  height: 35vh;
   -webkit-animation: scroll-down 2s linear infinite;
   animation: scroll-down 2s linear infinite;
 
     @media screen and (min-width: 900px){
       left: 50px;
-      height: 50vh;
+      height: 45vh;
 
   }
 
@@ -15496,7 +15501,7 @@ content: ' ';
 .right-phone {
   position: absolute; /* Establece el posicionamiento absoluto para las imágenes */
   right: 50px;
-  height: 50vh;
+  height: 45vh;
   top: 100px;
   -webkit-animation: scroll-down 2s linear infinite;
   animation: scroll-down 2s linear infinite;
@@ -15504,7 +15509,7 @@ content: ' ';
 
   @media screen and (min-width: 900px){
     right: 45px; /* Coloca la imagen del celular derecho al lado derecho del contenedor */
-    height: 50vh;
+    height: 45vh;
 }
 
 }
