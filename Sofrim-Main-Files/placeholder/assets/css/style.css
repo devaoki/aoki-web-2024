@@ -15403,7 +15403,6 @@ content: ' ';
 
 .meli-title{
   line-height: 1.1em;
-  margin-bottom: 25px;
   font-size: 75px;
   @media screen and (max-width: 700px){
     margin-bottom: 15px;
@@ -15727,7 +15726,7 @@ width: 300px;
 
 @media screen and (max-width: 1700px) {
   .container-mobiles-meli-cta {
-    height: 90vh;
+    height: 80vh;
   }
 
   .phone-cta-meli-left {
@@ -15747,6 +15746,16 @@ width: 300px;
   background-color: #fe9c00;
   font-weight: 900 !important;
   width: 100% !important;
+  font-size: 1.5vw;
+  @media screen and (min-width: 1500px) {
+    font-size: 1.2vw;
+  }
+}
+@media screen and (max-width: 900px){
+  .btn-cta-meli{
+    
+  font-size: 6vw;
+  }
 }
 
 .icons-cta-meli{
