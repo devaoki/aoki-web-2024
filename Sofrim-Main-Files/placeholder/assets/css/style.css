@@ -12782,7 +12782,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
 .payment-section {
   position: relative;
   overflow: hidden;
-  height: 110vh;
+  height: fit-content;
   @media screen and (max-width: 700px) {
     height: min-content;
     padding-left: 10vw  ;
@@ -15004,7 +15004,7 @@ content: ' ';
 }
 @media screen and (min-width: 1100px) {
   .display-none-bs{
-    display: none;
+    display: none !important;
   }
   .banner-br-mobile{
     display: none ;
@@ -15643,4 +15643,65 @@ background: transparent;
   @media screen and (max-width: 900px) {
     padding-top: 20px;
   }
+}
+
+.container-mobiles-meli-cta {
+  position: relative;
+  height: 50vh; /* Cambiado de 60vh a 40vh */
+  overflow: hidden; /* Para ocultar el exceso de las imágenes superpuestas */
+
+}
+
+.phone-cta-meli-left {
+  position: absolute;
+  height: 20vw; 
+  top: 0; 
+  left: 0; 
+  -webkit-animation: scroll-down 2s linear infinite;
+  animation: scroll-down 2s linear infinite;
+
+}
+
+.phone-cta-meli-rigth {
+  position: absolute;
+  height: 25vw; 
+  top: 0; 
+  right: 25%;
+  -webkit-animation: scroll-down 3s linear infinite;
+  animation: scroll-down 3s linear infinite;
+  z-index: 1;
+
+}
+
+@media screen and (max-width: 1700px) {
+  .container-mobiles-meli-cta {
+    height: 80vh;
+  }
+
+  .phone-cta-meli-left {
+    height: 30vw;
+
+  }
+
+  .phone-cta-meli-rigth {
+    height: 35vw;
+    top: 5%; 
+
+  }
+}
+
+.btn-cta-meli{
+  margin-left: 0;
+  background-color: #fce21d;
+  color: #0881a3 !important;
+  font-weight: 900 !important;
+  width: 100% !important;
+}
+
+.icons-cta-meli{
+  display: flex;
+  justify-content: space-evenly;
+align-items: center;
+width: 60%;
+margin-bottom: 25px;
 }
