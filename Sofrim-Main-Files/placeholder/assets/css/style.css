@@ -1667,7 +1667,7 @@ h4 a:hover {
   position: relative;
   font-weight: 700;
   margin-top: -8px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 @media only screen and (max-width: 991px) {
   .section-header .section-title {
@@ -7536,6 +7536,7 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
 }
 .client-section.two .client-item .client-footer {
   margin-top: 30px;
+  margin-top: 30px;
 }
 .client-section.two .client-pagination {
   margin-top: 25px;
@@ -12782,7 +12783,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
 .payment-section {
   position: relative;
   overflow: hidden;
-  height: 110vh;
+  height: fit-content;
   @media screen and (max-width: 700px) {
     height: min-content;
     padding-left: 10vw  ;
@@ -12829,29 +12830,30 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
   color: #0881a3;
   position: relative;
   padding-bottom: 25px;
-  padding-left: 40px;
+  /* padding-left: 40px; */
 }
 @media only screen and (max-width: 991px) {
   .payment-content .payment-list li {
     font-size: 16px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
   }
 }
 .payment-content .payment-list li::before {
   position: absolute;
-  color: #fff;
+  /* color: #fff; */
   width: 20px;
   height: 20px;
   line-height: 20px;
-  background-color:#0881a3;
-  border-radius: 50%;
+  /* background-color:#0881a3; */
+  /* border-radius: 50%; */
   text-align: center;
   top: 3px;
   left: 0;
-  content: "";
-  font-family: "Line Awesome Free";
-  font-weight: 900;
-  font-size: 12px;
+  /* content: ""; */
+  /* font-family: "Line Awesome Free"; */
+  /* font-weight: 900; */
+  /* font-size: 12px; */
+  padding-left: 0;
 }
 @media only screen and (max-width: 991px) {
   .payment-content .payment-list li::before {
@@ -15004,7 +15006,7 @@ content: ' ';
 }
 @media screen and (min-width: 1100px) {
   .display-none-bs{
-    display: none;
+    display: none !important;
   }
   .banner-br-mobile{
     display: none ;
@@ -15391,6 +15393,7 @@ content: ' ';
   @media screen and (min-width: 1100px){
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
   
   }
@@ -15402,14 +15405,22 @@ content: ' ';
 
 .meli-title{
   line-height: 1.1em;
-  margin-bottom: 25px;
+  font-size: 75px;
+  color: #0881a3;
   @media screen and (max-width: 700px){
     margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
   }
 }
+@media screen and (min-width: 900px){
 
-.meli-text{
-
+.rigth-bs-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
 }
 
 .payment-content .payment-btn{
@@ -15645,6 +15656,7 @@ background: transparent;
   }
 }
 
+
 .client-content{
   height: 140px;
 }
@@ -15679,10 +15691,102 @@ width: 300px;
 
 .img-meli-test{
   position: absolute;
-  top: 75px;
-  right: 20px;
+  top: 90px;
+  right: 40px;
 }
 
 .client-content-meli{
   font-size: 20px;
+}
+
+.container-mobiles-meli-cta {
+  position: relative;
+  height: 60vh; /* Cambiado de 60vh a 40vh */
+  overflow: hidden; /* Para ocultar el exceso de las imágenes superpuestas */
+
+}
+
+.phone-cta-meli-left {
+  position: absolute;
+  height: 20vw; 
+  top: 0; 
+  left: 0; 
+  -webkit-animation: scroll-down 2s linear infinite;
+  animation: scroll-down 2s linear infinite;
+
+}
+
+.phone-cta-meli-rigth {
+  position: absolute;
+  height: 25vw; 
+  top: 0; 
+  right: 25%;
+  -webkit-animation: scroll-down 3s linear infinite;
+  animation: scroll-down 3s linear infinite;
+  z-index: 1;
+
+}
+
+@media screen and (max-width: 1700px) {
+  .container-mobiles-meli-cta {
+    height: 80vh;
+  }
+
+  .phone-cta-meli-left {
+    height: 28vw;
+
+  }
+
+  .phone-cta-meli-rigth {
+    height: 33vw;
+    top: 5%; 
+
+  }
+}
+
+.btn-cta-meli{
+  margin-left: 0;
+  background-color: #fe9c00;
+  font-weight: 900 !important;
+  width: 100% !important;
+  font-size: 1.5vw;
+  @media screen and (min-width: 1500px) {
+    font-size: 1.2vw;
+  }
+}
+@media screen and (max-width: 900px){
+  .btn-cta-meli{
+    
+  font-size: 6vw;
+  }
+  .payment-section{
+    padding-bottom: 80px;
+  }
+
+  .title-clients-testimonials-mobile{
+    font-size: 40px;
+  }
+}
+
+.icons-cta-meli{
+  display: flex;
+  justify-content: space-evenly;
+align-items: center;
+width: 60%;
+margin-bottom: 25px;
+}
+
+.payment-content .payment-list li p {
+  padding-left: 5px;
+}
+
+.payment-content .payment-list li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.meli-text{
+  margin-bottom: 15px !important;
 }
