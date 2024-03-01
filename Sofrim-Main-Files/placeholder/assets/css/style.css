@@ -1667,7 +1667,7 @@ h4 a:hover {
   position: relative;
   font-weight: 700;
   margin-top: -8px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 @media only screen and (max-width: 991px) {
   .section-header .section-title {
@@ -15406,6 +15406,7 @@ content: ' ';
 .meli-title{
   line-height: 1.1em;
   font-size: 75px;
+  color: #0881a3;
   @media screen and (max-width: 700px){
     margin-bottom: 15px;
     font-size: 40px;
@@ -15690,8 +15691,8 @@ width: 300px;
 
 .img-meli-test{
   position: absolute;
-  top: 75px;
-  right: 20px;
+  top: 90px;
+  right: 40px;
 }
 
 .client-content-meli{
@@ -15758,6 +15759,13 @@ width: 300px;
     
   font-size: 6vw;
   }
+  .payment-section{
+    padding-bottom: 80px;
+  }
+
+  .title-clients-testimonials-mobile{
+    font-size: 40px;
+  }
 }
 
 .icons-cta-meli{
@@ -15776,4 +15784,9 @@ margin-bottom: 25px;
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+
+.meli-text{
+  margin-bottom: 15px !important;
 }
