@@ -7535,7 +7535,7 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
      object-position: center;
 }
 .client-section.two .client-item .client-footer {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .client-section.two .client-pagination {
   margin-top: 25px;
@@ -15390,7 +15390,7 @@ content: ' ';
 
   @media screen and (min-width: 1100px){
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
   
   }
@@ -15643,4 +15643,46 @@ background: transparent;
   @media screen and (max-width: 900px) {
     padding-top: 20px;
   }
+}
+
+.client-content{
+  height: 140px;
+}
+
+.client-section.two .meli-test{
+
+width: 300px;
+}
+
+.meli-test::before {
+  border: 2px solid #fe9c00;
+  border-radius: 50px;
+  padding-inline: 5px ;
+}
+
+.meli-bold{
+  width: fit-content;
+  display: inline; 
+  font-style: italic;
+  font-weight: bold;
+}
+
+.client-content p{
+  display: inline; 
+
+}
+
+.meli-test-star{
+  display: flex;
+  align-items: flex-end;
+}
+
+.img-meli-test{
+  position: absolute;
+  top: 75px;
+  right: 20px;
+}
+
+.client-content-meli{
+  font-size: 20px;
 }
