@@ -12784,6 +12784,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
   position: relative;
   overflow: hidden;
   height: fit-content;
+  background-color: #f2f2f2;
   @media screen and (max-width: 700px) {
     height: min-content;
     padding-left: 10vw  ;
@@ -15526,7 +15527,7 @@ content: ' ';
 }
 
 .title-meli-list{
-  color: white;
+  color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #0881a3;
   font-size: 5vw;
@@ -15569,11 +15570,20 @@ content: ' ';
 .title-meli-list{
   font-size: 4vw;
   @media screen and (max-width: 900px) {
-    font-size: 9vw;
+    font-size: 7.5vw;
     margin-bottom: 30px !important;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
   }
 }
 
+@media screen and (min-width: 1500px) {
+  .title-meli-list{
+    font-size: 3vw;
+
+  }
+}
 .bg-meli {
   background-image: url(../images/bg-banner.svg);
   background-repeat: no-repeat;
@@ -15708,9 +15718,9 @@ width: 300px;
 
 .phone-cta-meli-left {
   position: absolute;
-  height: 20vw; 
+  height: 18vw; 
   top: 0; 
-  left: 0; 
+  left: 15%;
   -webkit-animation: scroll-down 2s linear infinite;
   animation: scroll-down 2s linear infinite;
 
@@ -15718,9 +15728,9 @@ width: 300px;
 
 .phone-cta-meli-rigth {
   position: absolute;
-  height: 25vw; 
+  height: 23vw; 
   top: 0; 
-  right: 25%;
+  right: 15%;
   -webkit-animation: scroll-down 3s linear infinite;
   animation: scroll-down 3s linear infinite;
   z-index: 1;
@@ -15733,13 +15743,15 @@ width: 300px;
   }
 
   .phone-cta-meli-left {
-    height: 28vw;
+    height: 25vw;
+    left: 20%;
 
   }
 
   .phone-cta-meli-rigth {
-    height: 33vw;
+    height: 30vw;
     top: 5%; 
+    right: 15%;
 
   }
 }
