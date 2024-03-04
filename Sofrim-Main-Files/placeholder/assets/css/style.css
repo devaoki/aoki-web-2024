@@ -14874,7 +14874,6 @@ font-style: normal;
 .clients-section-size{
   flex: none;
   max-width: none;
-  margin-top: 10vh;
   margin-bottom: 0 !important;
 }
 
@@ -15420,7 +15419,6 @@ content: ' ';
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 10vh;
 }
 }
 
@@ -15711,7 +15709,7 @@ width: 300px;
 
 .container-mobiles-meli-cta {
   position: relative;
-  height: 60vh; /* Cambiado de 60vh a 40vh */
+  height: 55vh; /* Cambiado de 60vh a 40vh */
   overflow: hidden; /* Para ocultar el exceso de las imágenes superpuestas */
 
 }
@@ -15719,7 +15717,7 @@ width: 300px;
 .phone-cta-meli-left {
   position: absolute;
   height: 18vw; 
-  top: 0; 
+  top: 10%; 
   left: 15%;
   -webkit-animation: scroll-down 2s linear infinite;
   animation: scroll-down 2s linear infinite;
@@ -15729,7 +15727,7 @@ width: 300px;
 .phone-cta-meli-rigth {
   position: absolute;
   height: 23vw; 
-  top: 0; 
+  top: 10%; 
   right: 15%;
   -webkit-animation: scroll-down 3s linear infinite;
   animation: scroll-down 3s linear infinite;
@@ -15739,18 +15737,20 @@ width: 300px;
 
 @media screen and (max-width: 1700px) {
   .container-mobiles-meli-cta {
-    height: 80vh;
+    height: 70vh;
   }
 
   .phone-cta-meli-left {
     height: 25vw;
     left: 20%;
+    top: 15%; 
+
 
   }
 
   .phone-cta-meli-rigth {
     height: 30vw;
-    top: 5%; 
+    top: 15%; 
     right: 15%;
 
   }
