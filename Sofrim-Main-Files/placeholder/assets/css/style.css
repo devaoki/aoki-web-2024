@@ -15709,8 +15709,8 @@ width: 300px;
 
 .container-mobiles-meli-cta {
   position: relative;
-  height: 55vh; /* Cambiado de 60vh a 40vh */
-  overflow: hidden; /* Para ocultar el exceso de las imágenes superpuestas */
+  height: 28vw; 
+  overflow: hidden; 
 
 }
 
@@ -15737,7 +15737,7 @@ width: 300px;
 
 @media screen and (max-width: 1700px) {
   .container-mobiles-meli-cta {
-    height: 70vh;
+    height: 36vw;
   }
 
   .phone-cta-meli-left {
