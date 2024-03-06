@@ -15276,7 +15276,7 @@ content: ' ';
 }
 
 .btn-asesor span {
-  transform: scale(1);
+  transform: scale(1.2);
 }
 
 .cta-size-banner{
@@ -15568,11 +15568,12 @@ content: ' ';
 .title-meli-list{
   font-size: 4vw;
   @media screen and (max-width: 900px) {
-    font-size: 7.5vw;
+    font-size: 10vw;
     margin-bottom: 30px !important;
     display: inline-block;
     width: 100%;
     text-align: center;
+    line-height: 10vw;
   }
 }
 
@@ -15768,7 +15769,8 @@ width: 300px;
 }
 @media screen and (max-width: 900px){
   .btn-cta-meli{
-    
+    width: 60% !important;
+
   font-size: 6vw;
   }
   .payment-section{
@@ -15785,7 +15787,7 @@ width: 300px;
   justify-content: space-evenly;
 align-items: center;
 width: 60%;
-margin-bottom: 25px;
+margin-bottom: 10px;
 }
 
 .payment-content .payment-list li p {
@@ -15801,4 +15803,17 @@ margin-bottom: 25px;
 
 .meli-text{
   margin-bottom: 15px !important;
+  font-size: 1.3em;
+}
+
+.payment-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.more-simbol{
+  @media screen and (max-width: 900px){
+    font-size: 15vw;
+
+  }
 }
