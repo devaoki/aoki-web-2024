@@ -12784,7 +12784,9 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
   position: relative;
   overflow: hidden;
   height: fit-content;
-  background-color: #f2f2f2;
+  background-image: url('../images/Background\ home\ meli.png');
+  background-position: center;
+  background-size: cover;
   @media screen and (max-width: 700px) {
     height: min-content;
     padding-left: 10vw  ;
@@ -15275,9 +15277,7 @@ content: ' ';
   transform: scale(1.07);
 }
 
-.btn-asesor span {
-  transform: scale(1.2);
-}
+
 
 .cta-size-banner{
   width: 90%;
@@ -15775,6 +15775,10 @@ width: 300px;
   }
   .payment-section{
     padding-bottom: 80px;
+    background-image: url('../images/Background\ home\ meli\ -\ mobile.png');
+    background-position: center;
+    background-size: cover;
+  
   }
 
   .title-clients-testimonials-mobile{
@@ -15807,13 +15811,22 @@ margin-bottom: 10px;
 }
 
 .payment-btn {
+  margin-left: 25px;
+  @media screen and (max-width: 900px){
+
   display: flex;
   justify-content: center;
-}
+  margin-left:0;
+}}
 
 .more-simbol{
   @media screen and (max-width: 900px){
     font-size: 15vw;
 
   }
+}
+
+.btn-cta-meli{
+  transform: scale(1.2);
+
 }
