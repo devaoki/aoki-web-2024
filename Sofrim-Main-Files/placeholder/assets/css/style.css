@@ -15567,9 +15567,9 @@ content: ' ';
 
 .title-meli-list{
   font-size: 4vw;
+  line-height: 1em;
   @media screen and (max-width: 900px) {
     font-size: 10vw;
-    margin-bottom: 30px !important;
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -15580,7 +15580,6 @@ content: ' ';
 @media screen and (min-width: 1500px) {
   .title-meli-list{
     font-size: 3vw;
-
   }
 }
 .bg-meli {
@@ -15769,8 +15768,7 @@ width: 300px;
 }
 @media screen and (max-width: 900px){
   .btn-cta-meli{
-    width: 60% !important;
-
+    width: fit-content !important;
   font-size: 6vw;
   }
   .payment-section{
@@ -15808,18 +15806,22 @@ margin-bottom: 10px;
 .meli-text{
   margin-bottom: 15px !important;
   font-size: 1.3em;
-}
+  @media screen and (max-width: 900px){
+    line-height: 1.5;
+}}
 
 .payment-btn {
-  margin-left: 25px;
+  margin-left: 5px;
+  width: fit-content;
   @media screen and (max-width: 900px){
-
+    width: 100%;
   display: flex;
   justify-content: center;
   margin-left:0;
 }}
 
 .more-simbol{
+  font-size: 4.5vw;
   @media screen and (max-width: 900px){
     font-size: 15vw;
 
