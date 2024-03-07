@@ -15569,11 +15569,11 @@ content: ' ';
   font-size: 4vw;
   line-height: 1em;
   @media screen and (max-width: 900px) {
-    font-size: 10vw;
+    font-size: 14vw;
     display: inline-block;
     width: 100%;
     text-align: center;
-    line-height: 10vw;
+    line-height: 0.85;
   }
 }
 
@@ -15742,7 +15742,7 @@ width: 300px;
 
   .phone-cta-meli-left {
     height: 25vw;
-    left: 20%;
+    left: 30%;
     top: 15%; 
 
 
@@ -15751,7 +15751,7 @@ width: 300px;
   .phone-cta-meli-rigth {
     height: 30vw;
     top: 15%; 
-    right: 15%;
+    right: 5%;
 
   }
 }
@@ -15821,9 +15821,16 @@ margin-bottom: 10px;
 }}
 
 .more-simbol{
-  font-size: 4.5vw;
+  font-size: 6vw;
   @media screen and (max-width: 900px){
-    font-size: 15vw;
+    font-size: 18vw;
+
+  }
+}
+
+@media screen and (min-width: 1500px){
+  .more-simbol{
+    font-size: 4.7vw;
 
   }
 }
@@ -15831,4 +15838,13 @@ margin-bottom: 10px;
 .btn-cta-meli{
   transform: scale(1.2);
 
+}
+
+.icons-bs-meliconect{
+  height: 12vh;
+  width: auto;
+  @media screen and (min-width: 1400px) {
+    height: 10vh;
+
+  }
 }
