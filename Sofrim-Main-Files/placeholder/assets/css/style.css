@@ -15811,7 +15811,6 @@ margin-bottom: 10px;
 }}
 
 .payment-btn {
-  margin-left: 5px;
   width: fit-content;
   @media screen and (max-width: 900px){
     width: 100%;
@@ -15847,4 +15846,16 @@ margin-bottom: 10px;
     height: 10vh;
 
   }
+}
+
+.copete-meli-cta{
+  text-align:left ;
+  @media screen and (max-width: 900px) {
+    width: 100vw;
+    text-align: center;
+  }
+}
+
+.seller-mobile{
+  font-size: 18px;
 }
