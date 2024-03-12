@@ -14898,7 +14898,7 @@ font-style: normal;
     justify-content: left;
   }
   .display-none-mobile {
-    display: none;
+    display: none !important;
   }
   .image-mobile-contact-before{
     display: block;
@@ -15494,14 +15494,14 @@ content: ' ';
 .left-phone {
   position: absolute; /* Establece el posicionamiento absoluto para las imágenes */
 
-  left: 200px; /* Coloca la imagen del celular izquierdo al lado izquierdo del contenedor */
-  top: 100px;
-  height: 35vh;
+  left: 10vw; /* Coloca la imagen del celular izquierdo al lado izquierdo del contenedor */
+  top: 120px;
+  height: 45vh;
   -webkit-animation: scroll-down 2s linear infinite;
   animation: scroll-down 2s linear infinite;
 
     @media screen and (min-width: 900px){
-      left: 50px;
+      left: 12vw;
       height: 45vh;
 
   }
@@ -15510,15 +15510,15 @@ content: ' ';
 
 .right-phone {
   position: absolute; /* Establece el posicionamiento absoluto para las imágenes */
-  right: 50px;
+  right: 10vw;
   height: 45vh;
-  top: 100px;
+  top: 120px;
   -webkit-animation: scroll-down 2s linear infinite;
   animation: scroll-down 2s linear infinite;
 
 
   @media screen and (min-width: 900px){
-    right: 45px; /* Coloca la imagen del celular derecho al lado derecho del contenedor */
+    right: 12vw; /* Coloca la imagen del celular derecho al lado derecho del contenedor */
     height: 45vh;
 }
 
@@ -15858,4 +15858,118 @@ margin-bottom: 10px;
 
 .seller-mobile{
   font-size: 18px;
+}
+
+.btn-contact-meli{
+  height: 52px;
+  padding: 15px;
+  font-weight: bolder;
+  background-color: #73aed9;
+}
+
+.bg-meli-all{
+position: relative;
+background-color: #f2f2f2;
+}
+
+.bola1, .bola2, .bola3, .bola4, .bola5, .bola6, .bola7 {
+  position: absolute;
+  width: 350px; 
+  height: 350px; 
+  border-radius: 50%; 
+  background-color: #f2f2f2;
+  opacity: 40%;
+  @media screen and (max-width: 900px) {
+    width: 150px; 
+    height: 150px; 
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .bola1, .bola2, .bola3, .bola4, .bola5, .bola6, .bola7 {
+    width: 250px; 
+  height: 250px; 
+
+  }}
+
+.bola1 {
+  top: 10vh; 
+  left: 10vw; 
+  background: radial-gradient(circle at center, #73aed9 40%, #f2f2f2 70%); 
+  @media screen and (max-width: 900px) {
+    top: 0;
+    left: 0vw;
+
+  }
+
+}
+
+.bola2 {
+  top: 30vh;
+  right: 20vw;
+  background: radial-gradient(circle at center, #73aed9 40%, #f2f2f2 70%); 
+  @media screen and (max-width: 900px) {
+    top: 40vh;
+    right: 0vw;
+  }
+
+}
+
+.bola3 {
+  top: 100vh;
+  right: 5vw;
+  background: radial-gradient(circle at center, #73aed9 40%, #f2f2f2 70%); 
+  @media screen and (max-width: 900px) {
+    top: 85vh;
+    left: 10vw;
+
+  }
+
+}
+
+.bola4 {
+  bottom: 0vh;
+  left: 0vw;
+  background: radial-gradient(circle at center, #73aed9 40%, #f2f2f2 70%); 
+  @media screen and (max-width: 900px) {
+    top: 220vh;
+    right: 0vw;
+
+  }
+
+}
+
+.bola5 {
+  top: 140vh;
+  right: 0vw;
+  background: radial-gradient(circle at center, #73aed9 40%, #f2f2f2 70%); 
+  @media screen and (max-width: 900px) {
+    top: 250vh;
+    right: 0vw;
+
+  }
+
+}
+
+.bola6 {
+  top: 120vh;
+  left: 10vw;
+  background: radial-gradient(circle at center, #73aed9 40%, #f2f2f2 70%); 
+  @media screen and (max-width: 900px) {
+    top: 290vh;
+    left: 0vw;
+
+  }
+
+}
+
+.bola7 {
+  top: 70vh;
+  left: 0vw;
+  background: radial-gradient(circle at center, #73aed9 40%, #f2f2f2 70%); 
+  @media screen and (max-width: 900px) {
+    top: 0;
+    right: -10vw;
+
+  }  
 }
