@@ -15510,7 +15510,7 @@ content: ' ';
 
 .right-phone {
   position: absolute; /* Establece el posicionamiento absoluto para las imágenes */
-  right: 10vw;
+  right: 12vw;
   height: 45vh;
   top: 120px;
   -webkit-animation: scroll-down 2s linear infinite;
@@ -15518,7 +15518,7 @@ content: ' ';
 
 
   @media screen and (min-width: 900px){
-    right: 12vw; /* Coloca la imagen del celular derecho al lado derecho del contenedor */
+    right: 16vw; /* Coloca la imagen del celular derecho al lado derecho del contenedor */
     height: 45vh;
 }
 
@@ -15864,7 +15864,12 @@ margin-bottom: 10px;
   height: 52px;
   padding: 15px;
   font-weight: bolder;
-  background-color: #73aed9;
+  background-color: #fe9c00;
+  
+}
+
+.btn-contact-meli span {
+  transform: scale(1.2);
 }
 
 .bg-meli-all{
@@ -15905,8 +15910,8 @@ background-color: #f2f2f2;
 }
 
 .bola2 {
-  top: 30vh;
-  right: 20vw;
+  top: 15vh;
+  right: 5vw;
   background: radial-gradient(circle at center, #73aed9 40%, #f2f2f2 70%); 
   @media screen and (max-width: 900px) {
     top: 40vh;
@@ -15940,7 +15945,7 @@ background-color: #f2f2f2;
 }
 
 .bola5 {
-  top: 140vh;
+  top: 160vh;
   right: 0vw;
   background: radial-gradient(circle at center, #73aed9 40%, #f2f2f2 70%); 
   @media screen and (max-width: 900px) {
@@ -15952,6 +15957,7 @@ background-color: #f2f2f2;
 }
 
 .bola6 {
+  display: none;
   top: 120vh;
   left: 10vw;
   background: radial-gradient(circle at center, #73aed9 40%, #f2f2f2 70%); 
