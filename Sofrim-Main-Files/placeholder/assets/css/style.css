@@ -802,8 +802,8 @@ blockquote .quote-icon {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
   line-height: 45px;
   font-weight: 600;
   /* color: white !important; */
@@ -4983,6 +4983,10 @@ option {
   background: transparent;
   padding-top: 200px;
   padding-bottom: 0;
+  @media screen and (min-width: 900px){
+    padding-top: 125px;
+
+  }
 }
 .banner-section.five .banner-element-thirty {
   position: absolute;
@@ -15496,22 +15500,27 @@ content: ' ';
 
   left: 10vw; /* Coloca la imagen del celular izquierdo al lado izquierdo del contenedor */
   top: 120px;
-  height: 45vh;
+  height: 50vh;
   -webkit-animation: scroll-down 2s linear infinite;
   animation: scroll-down 2s linear infinite;
 
     @media screen and (min-width: 900px){
       left: 12vw;
-      height: 45vh;
+      height: 50vh;
 
   }
 
 }
 
+.left-phone,
+.right-phone{
+opacity: .6;
+}
+
 .right-phone {
   position: absolute; /* Establece el posicionamiento absoluto para las imágenes */
   right: 12vw;
-  height: 45vh;
+  height: 50vh;
   top: 120px;
   -webkit-animation: scroll-down 2s linear infinite;
   animation: scroll-down 2s linear infinite;
@@ -15519,7 +15528,7 @@ content: ' ';
 
   @media screen and (min-width: 900px){
     right: 16vw; /* Coloca la imagen del celular derecho al lado derecho del contenedor */
-    height: 45vh;
+    height: 50vh;
 }
 
 }
