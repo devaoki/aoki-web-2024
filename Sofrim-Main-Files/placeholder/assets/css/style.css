@@ -6539,7 +6539,7 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
 }
 
 .footer-social {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 .footer-social.style-01 li a {
   border: 1px solid #707070;
@@ -16025,4 +16025,75 @@ background-color: #f2f2f2;
   .brand-section{
     padding-top: 0 !important;
   }
+}
+.meli-slide{
+  height: 20vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 900px){
+    height: auto !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 900px){
+
+.brand-slider.client-slider {
+  overflow: hidden;
+}
+
+.brand-slider.client-slider .swiper-wrapper {
+  transition: none;
+}
+
+.brand-slider.client-slider .swiper-slide {
+  width: auto !important;
+}
+
+.brand-slider.client-slider .meli-swiper img {
+  max-width: 100%;
+  height: auto;
+}
+
+.brand-slider.client-slider .meli-swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-slider.client-slider .swiper-pagination {
+  bottom: -40px;
+}
+
+.slider-mobile{
+
+  padding: 0px;
+  background-color: transparent;
+}
+.footer-display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mobile-display{
+  padding-bottom: 10px;
+}
+}
+
+.bx-s-mobile{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.icon-pin{
+  color: #0881a3;
+  font-size: 25px;
+}
+
+.text-blue{
+  color: #0881a3;
+  font-weight: bold;
+}
+
+.text-grey{
+  color: #666666
 }
