@@ -802,8 +802,8 @@ blockquote .quote-icon {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   line-height: 45px;
   font-weight: 600;
   /* color: white !important; */
