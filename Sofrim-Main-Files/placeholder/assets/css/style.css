@@ -15911,7 +15911,7 @@ padding-bottom: 0;
 
 .bola1 {
   top: 10vh; 
-  left: -30vw; 
+  left: 0; 
   @media screen and (max-width: 900px) {
     top: 0;
     left: -30vw;
@@ -15922,7 +15922,7 @@ padding-bottom: 0;
 
 .bola2 {
   top: 15vh;
-  right: -30vw;
+  right:0;
   @media screen and (max-width: 900px) {
     top: 40vh;
     right: -30vw;
@@ -15932,7 +15932,7 @@ padding-bottom: 0;
 
 .bola3 {
   top: 100vh;
-  right: -30vw;
+  right:0;
   @media screen and (max-width: 900px) {
     top: 70vh;
     left: -30vw;
@@ -15941,8 +15941,8 @@ padding-bottom: 0;
 }
 
 .bola4 {
-  bottom: 0vh;
-  left: -30vw;
+  top: 120vh;
+  left: 0;
   @media screen and (max-width: 900px) {
     top: 220vh;
     right: -30vw;
@@ -15953,7 +15953,7 @@ padding-bottom: 0;
 
 .bola5 {
   top: 160vh;
-  right: -30vw;
+  right: 0;
   @media screen and (max-width: 900px) {
     top: 250vh;
     right: -30vw;
@@ -15965,7 +15965,7 @@ padding-bottom: 0;
 .bola6 {
   display: none;
   top: 120vh;
-  left: -30vw;
+  left: 0;
   @media screen and (max-width: 900px) {
     top: 290vh;
     left: -30vw;
@@ -15975,7 +15975,8 @@ padding-bottom: 0;
 }
 
 .bola7 {
-  
+  top: 210vh;
+  left: 0;
   @media screen and (max-width: 900px) {
     top: 320vh;
     left: -30vw;
