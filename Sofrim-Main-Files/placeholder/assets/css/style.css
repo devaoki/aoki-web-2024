@@ -15934,9 +15934,8 @@ padding-bottom: 0;
   top: 100vh;
   right: -30vw;
   @media screen and (max-width: 900px) {
-    top: 72vh;
+    top: 70vh;
     left: -30vw;
-    display: none;
   }
 
 }
