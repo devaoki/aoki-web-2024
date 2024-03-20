@@ -15491,7 +15491,7 @@ content: ' ';
   height: fit-content !important;
   padding-left: 0;
   @media screen and (max-width: 900px) {
-    height: 100vh !important;
+    height: 85vh !important;
   }
 }
 
