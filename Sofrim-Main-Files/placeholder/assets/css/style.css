@@ -15885,7 +15885,7 @@ margin-bottom: 10px;
 position: relative;
 background-color: #f2f2f2;
 padding-bottom: 0;
-}
+overflow-x: hidden;}
 
 .bola1, .bola2, .bola3, .bola4, .bola5, .bola6, .bola7 {
   position: absolute;
@@ -16174,4 +16174,19 @@ padding-bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.video-meli-banner{
+  height: 45vh !important;
+  @media screen and (max-width: 1400px){
+    height: 55vh !important
+  }
+}
+
+.meli-title{
+  font-size: 40px !important;
+  @media screen and (max-width: 1400px){
+    font-size: 45px !important;
+  }
+
 }
