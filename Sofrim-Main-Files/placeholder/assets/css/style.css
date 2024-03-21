@@ -15885,7 +15885,7 @@ margin-bottom: 10px;
 position: relative;
 background-color: #f2f2f2;
 padding-bottom: 0;
-overflow-x: hidden;}
+overflow: hidden;}
 
 .bola1, .bola2, .bola3, .bola4, .bola5, .bola6, .bola7 {
   position: absolute;
