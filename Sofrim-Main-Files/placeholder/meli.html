@@ -1066,9 +1066,10 @@ function addAnimation() {
 
         const btns = document.querySelectorAll('.botonLogin');
 
-        for (const btn of btns) {
+        btns.forEach(btn => {
+
             btn.addEventListener('click', loginWithGoogle);
-        }
+        });
 
       </script>
 
