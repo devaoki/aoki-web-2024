@@ -16198,7 +16198,7 @@ overflow: hidden;}
 }
 
 .display-none-bigs {
-  @media screen and (min-width: 1500px) {
+  @media screen and (min-width: 1600px) {
     display: none !important;
   }
 
