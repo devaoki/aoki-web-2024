@@ -16202,3 +16202,24 @@ overflow: hidden;}
     display: none !important;
   }
 }
+
+.meli-copet{
+  @media only screen and (max-width: 991px) {
+    font-size: 22px !important;
+
+  }
+}
+
+.title-meli-banner{
+  @media only screen and (max-width: 991px){
+    font-size: 35px !important;
+    ;
+  }
+}
+
+.meli-text-mobile{
+  @media only screen and (max-width: 991px){
+    font-size: 22px !important;
+    ;
+  }
+}
