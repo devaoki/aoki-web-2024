@@ -313,7 +313,7 @@
                 ">
                      
                             <div style="display: flex; justify-content: center;">
-                                <a href="https://bit.ly/AokiIntegracionMercadoLibre" target="_blank"
+                                <a   target="_blank"
                                 class="botonLogin btn--base btn-banner-cta btn-asesor font-400 align-center cta-size-banner btn-meli btn-meli-landing btn-1-meli" id="btn-1-meli" style="
                                 height: fit-content;
                             ">
@@ -384,7 +384,7 @@
 
                             <div class="banner-btn">
                             <div style="display: flex; justify-content: center;" >
-                                <a href="https://bit.ly/AokiIntegracionMercadoLibre" target="_blank"
+                                <a   target="_blank"
                                 class="botonLogin btn--base btn-banner-cta btn-asesor font-400 align-center cta-size-banner btn-meli btn-meli-landing btn-1-meli" id="btn-1-meli" style="
                                 height: fit-content;
                             " >
@@ -623,7 +623,7 @@ function addAnimation() {
                         </li>
                     </ul>
                     <div style="display: flex; justify-content: center;" >
-                        <a href="https://bit.ly/AokiIntegracionMercadoLibre" target="_blank"
+                        <a   target="_blank"
                             class="botonLogin btn--base btn-banner-cta btn-asesor font-400 align-center cta-size-banner btn-meli btn-meli-landing btn-2-meli" id="btn-2-meli"
                             style="margin-top: 30px;">
                             <span style="display: flex;align-items: center;justify-content: center;">Vincular mi
@@ -739,7 +739,7 @@ function addAnimation() {
                 </li>
             </ul>
             <div style="display: flex; justify-content: center; width: 100vw; padding-bottom: 25px" >
-                <a href="https://bit.ly/AokiIntegracionMercadoLibre" target="_blank"
+                <a   target="_blank"
                     class="botonLogin btn--base btn-banner-cta btn-asesor font-400 align-center cta-size-banner btn-meli btn-meli-landing btn-2-meli" id="btn-2-meli">
                     <span style="display: flex;align-items: center;justify-content: center;">Vincular mi
                         <img src="assets/images/icon/Logo MeLi.svg" width="30" height="30" style="margin: 0 7px;" />
@@ -832,7 +832,7 @@ function addAnimation() {
 
         </section>
         <div style="display: flex; justify-content: center; width: 100vw; padding-bottom: 25px" >
-            <a href="https://bit.ly/AokiIntegracionMercadoLibre" target="_blank"
+            <a   target="_blank"
                 class="botonLogin btn--base btn-banner-cta btn-asesor font-400 align-center cta-size-banner btn-meli btn-meli-landing btn-3-meli" id="btn-3-meli">
                 <span style="display: flex;align-items: center;justify-content: center;">Vincular mi
                     <img src="assets/images/icon/Logo MeLi.svg" width="30" height="30" style="margin: 0 7px;" />
@@ -1048,9 +1048,14 @@ function addAnimation() {
 
         const loginWithGoogle = async () => {
 
+            if (window.popupBlockerDetected) {
+                alert('Por favor, habilite las ventanas emergentes para disfrutar de todas las funciones del sitio.');
+                return;
+            }
+    
             const googleProvider = new GoogleAuthProvider();
 
-            try {
+            try {                
                 const data = await signInWithPopup(auth, googleProvider);
                 
                 // Verificar si la respuesta es positiva y tiene datos
