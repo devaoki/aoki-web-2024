@@ -400,38 +400,7 @@
                             </div>
                         </div> -->
                     </div>
-                    <div class="brand-section mt-30 pt-80 display-none-bs">
-                        <div
-                            style="background-color: transparent;margin-left: -3.5vw;width: 100vw; margin-top: 10px; text-align: left;">
-                            <span class="sub-title text-blue text-center" style="margin-left: 30px;">Nuestros
-                                clientes</span>
-                            <div class="scroller" data-speed="slow">
-                                <div class="scroller__inner">
-                                    <img src="assets/images/client/blancos/cliente 11.svg" height="225" width="150"
-                                        alt="brand" style="transform: scale(1.3);">
-                                    <img src="assets/images/client/blancos/cliente 12.svg" height="175" width="150"
-                                        alt="brand">
-                                    <img src="assets/images/client/blancos/cliente 8.svg" height="125" width="150"
-                                        alt="brand">
-                                    <img src="assets/images/client/blancos/cliente 2.svg" height="125" width="150"
-                                        alt="brand" style="transform: scale(.9);">
-                                    <img src="assets/images/client/blancos/cliente 10.svg" height="200" width="150"
-                                        alt="brand" style="transform: scale(1.3);">
-                                    <img src="assets/images/client/blancos/cliente 3.svg" height="125" width="150"
-                                        alt="brand" style="transform: scale(.8);">
-                                    <img src="assets/images/client/blancos/cliente 1.svg" height="150" width="150"
-                                        alt="brand">
-                                    <img src="assets/images/client/blancos/cliente 4.svg" height="150" width="150"
-                                        alt="brand" style="transform: scale(1.3);">
-                                    <img src="assets/images/client/blancos/cliente 9.svg" height="150" width="150"
-                                        alt="brand">
-                                    <img src="assets/images/client/blancos/cliente 5.svg" height="125" width="150"
-                                        alt="brand">
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+            
                 </div>
             </div>
 
@@ -499,7 +468,7 @@
                                 </span>
                             </a>
                         </div>
-                        <div class="brand-section mt-30 pt-80 display-none-bs display-none-media">
+                        <!-- <div class="brand-section mt-30 pt-80 display-none-bs display-none-media">
                             <div
                                 style="background-color: transparent;margin-left: -3.5vw;width: 100vw; margin-top: 10px; text-align: left;">
                                 <span class="sub-title text-blue text-center " style="margin-left: 30px;">Nuestros
@@ -530,30 +499,8 @@
                                 </div>
                             </div>
 
-                        </div>
-                        <script>
-                            const scrollers = document.querySelectorAll(".scroller");
-
-                            if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-                                addAnimation();
-                            }
-
-                            function addAnimation() {
-                                scrollers.forEach((scroller) => {
-                                    scroller.setAttribute("data-animated", true);
-
-                                    const scrollerInner = scroller.querySelector(".scroller__inner");
-                                    const scrollerContent = Array.from(scrollerInner.children);
-
-                                    scrollerContent.forEach((item) => {
-                                        const duplicatedItem = item.cloneNode(true);
-                                        duplicatedItem.setAttribute("aria-hidden", true);
-                                        scrollerInner.appendChild(duplicatedItem);
-                                    });
-                                });
-                            }
-
-                        </script>
+                        </div> -->
+                       
                     </div>
                 </div>
 
@@ -640,6 +587,59 @@
     
     
     </div>
+    <div class="brand-section pt-80 display-none-bs display-none-media">
+        <div
+            style="background-color: transparent;margin-left: -3.5vw;width: 100vw;  text-align: left;">
+            <div class="scroller display-none-media" data-speed="slow">
+                <div class="scroller__inner display-none-media">
+                    <img src="assets/images/client/cliente 11.svg" height="225" width="150"
+                        alt="brand" style="transform: scale(1.3);" class="display-none-media">
+                    <img src="assets/images/client/cliente 12.svg" height="175" width="150"
+                        alt="brand" class="display-none-media">
+                    <img src="assets/images/client/cliente 8.svg" height="125" width="150"
+                        alt="brand" class="display-none-media">
+                    <img src="assets/images/client/cliente 2.svg" height="125" width="150"
+                        alt="brand" style="transform: scale(.9);" class="display-none-media">
+                    <img src="assets/images/client/cliente 10.svg" height="200" width="150"
+                        alt="brand" style="transform: scale(1.3);" class="display-none-media">
+                    <img src="assets/images/client/cliente 3.svg" height="125" width="150"
+                        alt="brand" style="transform: scale(.8);" class="display-none-media">
+                    <img src="assets/images/client/cliente 1.svg" height="150" width="150"
+                        alt="brand" class="display-none-media">
+                    <img src="assets/images/client/cliente 4.svg" height="150" width="150"
+                        alt="brand" style="transform: scale(1.3);" class="display-none-media">
+                    <img src="assets/images/client/cliente 9.svg" height="150" width="150"
+                        alt="brand" class="display-none-media">
+                    <img src="assets/images/client/cliente 5.svg" height="125" width="150"
+                        alt="brand" class="display-none-media">
+                </div>
+            </div>
+        </div>
+
+    </div> <script>
+        const scrollers = document.querySelectorAll(".scroller");
+
+        if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            addAnimation();
+        }
+
+        function addAnimation() {
+            scrollers.forEach((scroller) => {
+                scroller.setAttribute("data-animated", true);
+
+                const scrollerInner = scroller.querySelector(".scroller__inner");
+                const scrollerContent = Array.from(scrollerInner.children);
+
+                scrollerContent.forEach((item) => {
+                    const duplicatedItem = item.cloneNode(true);
+                    duplicatedItem.setAttribute("aria-hidden", true);
+                    scrollerInner.appendChild(duplicatedItem);
+                });
+            });
+        }
+
+    </script>
+</div>
     <div class="brand-section pt-30 display-none-mobile" style="background-color: transparent; margin-bottom:30px">
         <div class="container">
             <div class="row justify-content-center">
@@ -845,7 +845,7 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <section class="mockup padding-meli-banner display-none-bs dif-mobiles-benefits"
-        style="padding-top: 8px;background-color: white;">
+        style="padding-top: 25px;background-color: white;">
         <div class="meli-mockup-component">
             <p class="title-meli-list font-900 display-none-bs" style="margin-bottom: 10px;">RESPONDÉ <span
                     class="title-meli-list-color"><span class="more-simbol"> +</span> RÁPIDO</span></p>
