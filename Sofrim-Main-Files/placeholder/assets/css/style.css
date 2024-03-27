@@ -15610,6 +15610,7 @@ opacity: .6;
 
 .btn-meli-landing{
   width: 30vw !important;
+  background-color:  #fe9c00;
   @media screen and (max-width: 900px) {
     width: 70vw !important;
   }
@@ -15669,7 +15670,7 @@ background: transparent;
 
 .padding-meli-banner{
   @media screen and (max-width: 900px) {
-    padding-top: 20px;
+    padding-top: 80px !important;
   }
 }
 
@@ -15883,7 +15884,7 @@ margin-bottom: 10px;
 
 .bg-meli-all{
 position: relative;
-background-color: #f2f2f2;
+background-color: white;
 padding-bottom: 0;
 overflow: hidden;}
 
@@ -16187,6 +16188,51 @@ overflow: hidden;}
   font-size: 40px !important;
   @media screen and (max-width: 1400px){
     font-size: 45px !important;
+  }
+
+}
+
+.display-none-media {
+  @media screen and (min-width: 900px) and (max-width: 1500px) {
+    display: none !important;
+  }
+}
+
+.display-none-bigs {
+  @media screen and (min-width: 1600px) {
+    display: none !important;
+  }
+}
+
+.meli-copet{
+  @media only screen and (max-width: 991px) {
+    font-size: 22px !important;
+
+  }
+}
+
+.title-meli-banner{
+  @media only screen and (max-width: 991px){
+    font-size: 35px !important;
+    ;
+  }
+}
+
+.meli-text-mobile{
+  @media only screen and (max-width: 991px){
+    font-size: 22px !important;
+    ;
+  }
+}
+
+.video-meli-mobile{
+  @media only screen and (max-width: 991px){
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
 }
