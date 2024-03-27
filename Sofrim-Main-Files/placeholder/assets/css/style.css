@@ -15670,7 +15670,7 @@ background: transparent;
 
 .padding-meli-banner{
   @media screen and (max-width: 900px) {
-    padding-top: 20px;
+    padding-top: 80px !important;
   }
 }
 
@@ -16223,4 +16223,15 @@ overflow: hidden;}
     font-size: 22px !important;
     ;
   }
+}
+
+.video-meli-mobile{
+  @media only screen and (max-width: 991px){
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+  }
+
 }
